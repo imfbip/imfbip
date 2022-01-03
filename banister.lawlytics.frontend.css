@@ -218,7 +218,7 @@ input[type="submit"] {
 
 a.phone:hover {
     background: var(--primary-hover) !important;
-    color: #fff;
+    color: var(--shade-white);
 }
 
 /* Gray */
@@ -504,7 +504,7 @@ Homebody Section1
 
 .section1 h2,
 .section1 p {
-    color: #fff;
+    color: var(--shade-white);
 }
 
 .section1 .customBtn1 {
@@ -571,7 +571,7 @@ Homebody Section2
 
 .section2 h2,
 .section2 p {
-    color: #fff;
+    color: var(--shade-white);
 }
 
 @media screen and (min-width: 62em) {
@@ -639,7 +639,7 @@ Homebody Section2
 
 .recommendations-slider .insertion.widget h4 {
     background: none;
-    color: #fff;
+    color: var(--shade-white);
     display: block;
 }
 
@@ -654,7 +654,7 @@ Homebody Section2
 }
 
 .recommendations-slider .widget.recommendations ul li h5 a {
-    color: #fff;
+    color: var(--shade-white);
 }
 
 .recommendations-slider .widget.recommendations ul li h5 a:hover {
@@ -662,12 +662,12 @@ Homebody Section2
 }
 
 .recommendations-slider .widget.recommendations ul li p {
-    color: #fff;
+    color: var(--shade-white);
 }
 
 .recommendations-slider .widget.recommendations ul li p a {
     background: #c01818;
-    color: #fff;
+    color: var(--shade-white);
     display: inline-block;
     font-size: 1em;
     margin-top: 1.5em;
@@ -676,7 +676,7 @@ Homebody Section2
 }
 
 .recommendations-slider .widget.recommendations ul li p a:hover {
-    color: #fff;
+    color: var(--shade-white);
     background: #999;
 }
 
@@ -775,7 +775,7 @@ MTA
 }
 
 .partner-content {
-    background: #fff;
+    background: var(--shade-white);
     border: 1px solid #ececec;
     padding: 5em 2em 2em;
 }
@@ -789,7 +789,7 @@ MTA
 
 .button {
     background: var(--primary);
-    color: #fff;
+    color: var(--shade-white);
     display: inline-block;
     font-size: 1em;
     font-weight: 400;
@@ -800,7 +800,7 @@ MTA
 }
 
 .button:hover {
-    color: #fff;
+    color: var(--shade-white);
     background: var(--primary-hover);
 }
 
@@ -872,7 +872,7 @@ input[type=checkbox] {
 .cta-link {
     background: var(--primary);
     bottom: 16px;
-    color: #fff;
+    color: var(--shade-white);
     display: block;
     padding: 14px 24px;
     position: fixed;
@@ -882,7 +882,7 @@ input[type=checkbox] {
 
 .cta-link:hover {
     background: var(--primary-hover);
-    color: #fff;
+    color: var(--shade-white);
 }
 
 .spaces {
@@ -892,7 +892,7 @@ input[type=checkbox] {
 .footer-nav a,
 .copyright p,
 .group-disclaimer ul li a {
-    color: #fff;
+    color: var(--shade-white);
 }
 
 @media screen and (min-width: 62em) {
