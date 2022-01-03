@@ -933,25 +933,25 @@ h6 {
 /* Text Color utility */
 
 .text--primary {
-color: var(--primary);
+color: var(--primary) !important;
 }
 
 .text--secondary {
-color: var(--secondary);
+color: var(--secondary) !important;
 }
 
 .text--accent {
-color: var(--accent);
+color: var(--accent) !important;
 }
 
 .text--base {
-color: var(--base);
+color: var(--base) !important;
 }
 
 .text--white {
-color: var(--shade-white);
+color: var(--shade-white) !important;
 }
 
 .text--black {
-color: var(--shade-black);
+color: var(--shade-black) !important;
 }
