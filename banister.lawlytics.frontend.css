@@ -482,6 +482,29 @@ Homebody Section1
 
 }
 
+/* ====================
+Homebody what-we-do
+==================== */
+
+.what-we-do {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 62em) {
+
+    .what-we-do {
+   /*     padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
+    position: relative;
+    }
+
+    .what-we-do .homebody-content {
+        max-width: 736px;
+    }
+
+}
+
 /* SVG background */
 
 #insertion_333759 {
