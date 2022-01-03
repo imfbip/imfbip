@@ -909,7 +909,8 @@ input[type=checkbox] {
 }
 
 .spaces {
-    background: var(--secondary);
+    background: var(--base);
+    color: var(--shade-white);
 }
 
 .footer-nav a,
