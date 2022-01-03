@@ -929,3 +929,29 @@ h6 {
   gap: var(--space-xs);
   --grid-gap: var(--space-xs);
 }
+
+/* Text Color utility */
+
+.text--primary {
+color: var(--primary);
+}
+
+.text--secondary {
+color: var(--secondary);
+}
+
+.text--accent {
+color: var(--accent);
+}
+
+.text--base {
+color: var(--base);
+}
+
+.text--white {
+color: var(--shade-white);
+}
+
+.text--black {
+color: var(--shade-black);
+}
