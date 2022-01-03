@@ -319,7 +319,7 @@ Custom
     color: var(--shade-white);
 }
 
-#siteCanvas .fa-bars:hover {
+#siteCanvas .fa-bars:hover  {
     color: var(--primary-hover);
 }
 
