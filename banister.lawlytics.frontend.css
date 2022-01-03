@@ -742,7 +742,7 @@ MTA
 
 .meetAttorney {
     text-align: center;
-    background: var(--secondary);
+    /*background: var(--secondary);*/
     padding: 3em
 }
 
