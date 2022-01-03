@@ -380,6 +380,83 @@ header {
     display: none !important;
 }
 
+/* ===================================
+SECTION STYLES
+=================================== */
+
+/* ====================
+section-primary
+==================== */
+
+.section-primary {
+    background: var(--primary);
+    color: var(--shade-white);
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 62em) {
+
+    .section-primary {
+   /*     padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
+    position: relative;
+    }
+
+    .section-primary .homebody-content {
+        max-width: 736px;
+    }
+
+}
+
+/* ====================
+section-base
+==================== */
+
+.section-base {
+    background: var(--base);
+    color: var(--shade-white);
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 62em) {
+
+    .section-base {
+   /*     padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
+    position: relative;
+    }
+
+    .section-base .homebody-content {
+        max-width: 736px;
+    }
+
+}
+
+/* ====================
+section-light
+==================== */
+
+.section-light {
+    background: var(--shade-white);
+    color: var(--base);
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 62em) {
+
+    .section-light {
+   /*     padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
+    position: relative;
+    }
+
+    .section-light .homebody-content {
+        max-width: 736px;
+    }
+
+}
+
+
 /* ====================
 Homebody Section1
 ==================== */
