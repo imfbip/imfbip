@@ -510,7 +510,7 @@ Homebody what-we-do
 ==================== */
 
 .what-we-do {
-    text-align: center;
+    text-align: left;
     position: relative;
     z-index: 1;
 }
@@ -519,13 +519,20 @@ Homebody what-we-do
 
     .what-we-do {
    /*! padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
-    position: relative;
+    /*! position: relative; */
     }
 
     .what-we-do .homebody-content {
         max-width: 736px;
     }
+    
+    .what-we-do h2 {
+        margin-bottom: 1rem;
+    }
 
+    .what-we-do p {
+        font-weight: 300;
+    }
 }
 
 /* SVG background */
