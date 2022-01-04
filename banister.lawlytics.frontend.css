@@ -274,8 +274,8 @@ Background Images
 
 .hero {
     padding: var(--pad-section-l);
-        padding: var(--pad-section-l-calc);
-        padding: var(--pad-section-l-clamp);
+    padding: var(--pad-section-l-calc);
+    padding: var(--pad-section-l-clamp);
     background-image: url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
     object-fit: cover;
 }
