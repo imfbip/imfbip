@@ -356,7 +356,7 @@ Custom
 }
 
 header {
-    background: var(--base);
+    /*! background: var(--base); */
 }
 
 .mainNav a {
@@ -676,24 +676,32 @@ Homebody Section2
 }
 
 .recommendations-slider {
-    background-image: url(https://s3.amazonaws.com/law-media/layouts/110/assets/img/footer.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2.5rem 5%;
+    /*! background-image: url(https://s3.amazonaws.com/law-media/layouts/110/assets/img/footer.jpg); */
+    /*! background-position: center; */
+    /*! background-repeat: no-repeat; */
+    /*! background-size: cover; */
+    /*! padding: 2.5rem 5%; */
     position: relative;
     z-index: 1;
+    background: rgb(197,43,32);
+background: linear-gradient(180deg, rgba(197,43,32,1) 0%, rgba(24,23,28,1) 70%, rgba(11,22,34,1) 100%);
+}
+
+.recommendations-slider h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    
 }
 
 .recommendations-slider:before {
-    background: var(--base);
-    content: '';
-    height: 100%;
-    left: 0;
-    opacity: 1;
-    position: absolute;
-    top: 0;
-    width: 100%;
+    /*! background: var(--base); */
+    /*! content: ''; */
+    /*! height: 100%; */
+    /*! left: 0; */
+    /*! opacity: 1; */
+    /*! position: absolute; */
+    /*! top: 0; */
+    /*! width: 100%; */
     z-index: 0;
 }
 
@@ -769,7 +777,7 @@ Homebody Section2
     }
 
     .recommendations-slider {
-        padding: 8em 1em;
+        /*! padding: 8em 1em; */
     }
 
     .recommendations-slider .widget.recommendations ul li h5 {
@@ -826,7 +834,6 @@ MTA
     width: 55px;
 }
 
-/*
 .partner {
     margin: 6em auto 0;
     max-width: 600px;
@@ -852,18 +859,6 @@ MTA
     font-size: 1.125em;
     font-weight: 800;
     letter-spacing: 1px;
-}
-*/
-
-.atty-pic {
-    position:absolute;
-    right: 1rem;
-    top: -5rem;
-}
-
-div[class*="c-card"]{
-    margin-top: 5rem;
-    padding-top: 5rem;
 }
 
 .button {
