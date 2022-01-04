@@ -230,7 +230,8 @@ footer {
 /* Overlays */
 
 .hero-overlay {
-    background: #d6d3ddd4
+    background: #fff0 !important; /*override overlay color -- removing it */
+    padding: 0 !important;
 }
 
 .full-space-overlay,
@@ -272,12 +273,15 @@ h6 a:hover {
 Background Images
 ==================== */
 
-.hero {
-    padding: var(--pad-section-l) !important;
-    padding: var(--pad-section-l-calc) !important;
-    padding: var(--pad-section-l-clamp) !important;
-    background-image: url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
-    object-fit: cover;
+hero {
+  padding: var(--section-l) !important;
+  padding: var(--section-l-calc) !important;
+  padding: var(--section-l-clamp) !important;
+  background: linear-gradient(180deg, rgba(242,234,224,0.4), rgba(24,23,28,0.4)), url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
+    background-position-y: 0%, 0%;
+    background-attachment: scroll, scroll;
+    background-size: auto, auto;
+  background-size: cover;
 }
 
 .full-space {
@@ -293,8 +297,11 @@ Custom
 ==================== */
 
 .hero {
-    background-position-y: 120px;
-    background-attachment: initial;
+  background-position-y: var(--space-l);
+     background-position-y: var(--space-l-calc);
+     background-position-y: var(--space-l-clamp);
+  background-attachment: initial;
+ 
 }
 
 .navPhone {
@@ -377,9 +384,21 @@ margin: 0 !important;
     text-align: left;
 }
 
-.shoutout h1,
+.shoutout h1, .shoutout p {
+  color: var(--base);
+  margin-bottom: var(--space-s-calc);
+}
+
+.shoutout h1 {
+  font-size: var(--text-xxl);
+      font-size: var(--text-xxl-calc);
+      font-size: var(--text-xxl-clamp);
+}
+
 .shoutout p {
-    color: var(--base);
+ font-size: var(--text-m);
+     font-size: var(--text-m-calc);
+     font-size: var(--text-m-clamp);
 }
 
 .scroller {
