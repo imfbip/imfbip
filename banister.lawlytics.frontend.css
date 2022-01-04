@@ -282,7 +282,7 @@ Background Images
   padding: var(--section-l) !important;
   padding: var(--section-l-calc) !important;
   padding: var(--section-l-clamp) !important;
-  background: linear-gradient(180deg, rgba(242,234,224,0.4), rgba(24,23,28,0.4)), url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
+  background: linear-gradient(180deg, rgba(242,234,224,0.4) 0%, rgba(24,23,28,0.4)) 100%, url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
   background-size: cover;
   min-height: 960px;
 }
@@ -689,7 +689,7 @@ Homebody Section2
     position: relative;
     z-index: 1;
     background: rgb(197,43,32);
-background: linear-gradient(180deg, rgba(197,43,32,1) 0%, rgba(24,23,28,1) 70%, rgba(11,22,34,1) 100%);
+background: linear-gradient(180deg, var(--primary) 0%, var(--base) 100%);
 }
 
 .recommendations-slider h2 {
