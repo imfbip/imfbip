@@ -739,21 +739,38 @@ h6 {
 h1 {
     font-size: var(--text-xxl);
     --text-size: var(--text-xxl);
+    font-size: var(--text-xxl-calc);
+    --text-size: var(--text-xxl-calc);
+    font-size: var(--text-xxl-clamp);
+    --text-size: var(--text-xxl-clamp);
 }
 
 h2 {
     font-size: var(--text-xl);
     --text-size: var(--text-xl);
+        font-size: var(--text-xl-calc);
+    --text-size: var(--text-xl-calc);
+      font-size: var(--text-xl-clamp);
+    --text-size: var(--text-xl-clamp);
 }
 
 h3 {
     font-size: var(--text-l);
     --text-size: var(--text-l);
+      font-size: var(--text-l-calc);
+    --text-size: var(--text-l-calc);
+      font-size: var(--text-l-clamp);
+    --text-size: var(--text-l-clamp);
 }
 
 h4 {
+.text--m {
     font-size: var(--text-m);
     --text-size: var(--text-m);
+      font-size: var(--text-m-calc);
+    --text-size: var(--text-m-calc);
+      font-size: var(--text-m-clamp);
+    --text-size: var(--text-m-clamp);
 }
 
 h5 {
@@ -770,21 +787,38 @@ h6 {
 .text--xxl {
     font-size: var(--text-xxl);
     --text-size: var(--text-xxl);
+    font-size: var(--text-xxl-calc);
+    --text-size: var(--text-xxl-calc);
+    font-size: var(--text-xxl-clamp);
+    --text-size: var(--text-xxl-clamp);
 }
+
 
 .text--xl {
     font-size: var(--text-xl);
     --text-size: var(--text-xl);
+        font-size: var(--text-xl-calc);
+    --text-size: var(--text-xl-calc);
+      font-size: var(--text-xl-clamp);
+    --text-size: var(--text-xl-clamp);
 }
 
 .text--l {
     font-size: var(--text-l);
     --text-size: var(--text-l);
+      font-size: var(--text-l-calc);
+    --text-size: var(--text-l-calc);
+      font-size: var(--text-l-clamp);
+    --text-size: var(--text-l-clamp);
 }
 
 .text--m {
     font-size: var(--text-m);
     --text-size: var(--text-m);
+      font-size: var(--text-m-calc);
+    --text-size: var(--text-m-calc);
+      font-size: var(--text-m-clamp);
+    --text-size: var(--text-m-clamp);
 }
 
 .text--s {
