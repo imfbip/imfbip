@@ -273,7 +273,7 @@ h6 a:hover {
 Background Images
 ==================== */
 
-hero {
+.hero {
   padding: var(--section-l) !important;
   padding: var(--section-l-calc) !important;
   padding: var(--section-l-clamp) !important;
