@@ -1025,8 +1025,13 @@ fill: var(--primary);
     .mainNav > ul > li:last-of-type {
         margin-right: 0 !important;
     }
+    
+     .mainNav>ul>li>a {
+  padding:0 !important;
+ }
+    
     .mainNav > ul > li {
-        margin-right: var(--space-m) !important;
+        margin-right: var(--space-s-calc) !important;
 }
 
 }
