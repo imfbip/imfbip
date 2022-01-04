@@ -273,6 +273,9 @@ Background Images
 ==================== */
 
 .hero {
+    padding: var(--pad-section-l);
+        padding: var(--pad-section-l-calc);
+        padding: var(--pad-section-l-clamp);
     background-image: url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
     object-fit: cover;
 }
@@ -362,13 +365,13 @@ header {
 @media screen and (min-width: 62em) {
 
     .shoutout {
-        margin: 0 2em 1em 5em !important;
+     
         text-align: left;
     }
 }
 
 .shoutout {
-    margin: 0 auto;
+
     text-align: left;
 }
 
