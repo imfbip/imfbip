@@ -421,7 +421,7 @@ section-primary
 @media screen and (min-width: 62em) {
 
     .section-primary {
-   /*     padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
+   /*! padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
     position: relative;
     }
 
@@ -487,7 +487,7 @@ Homebody Section1
 .section1 {
     background: var(--base);
     text-align: center;
-   /* padding: 12rem 1rem 12rem !important; */ /*I have a utility class for padding*/
+   /*! padding: 12rem 1rem 12rem !important; */ /*I have a utility class for padding*/
     position: relative;
     z-index: 1;
 }
@@ -500,7 +500,7 @@ Homebody Section1
     }
 
     .section1 .homebody-content {
-        max-width: 736px;
+        /*! max-width: 736px; */
     }
 
 }
@@ -518,7 +518,7 @@ Homebody what-we-do
 @media screen and (min-width: 62em) {
 
     .what-we-do {
-   /*     padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
+   /*! padding: 12rem 1rem 20rem !important; */ /*I have a utility class for padding*/
     position: relative;
     }
 
@@ -552,6 +552,19 @@ Homebody what-we-do
 .section1 p {
     color: var(--shade-white);
 }
+
+.section1 .c-card-light p, h3 {
+    color: var(--base);
+    text-align: left;
+}
+
+.section1 .c-card-light h3 {
+        margin-top: : var(--space-xs);
+    margin-top: var(--space-xs-calc);
+    margin-bottom: var(--space-xs);
+    margin-bottom: var(--space-xs-calc);
+}
+
 
 .section1 .customBtn1 {
     background: var(--primary);
@@ -735,7 +748,7 @@ Homebody Section2
 }
 
 .main {
-    padding: 2.5em 5%;
+    /*! padding: 2.5em 5%; */
 }
 
 @media screen and (min-width: 62em) {
@@ -757,12 +770,12 @@ Homebody Section2
     }
 
     .main {
-        padding: 6em 1em;
+        /*! padding: 6em 1em; */
     }
 
     .main-content {
-        margin: 0 auto;
-        max-width: 62em;
+        /*! margin: 0 auto; */
+        /*! max-width: 62em; */
     }
 
 }
