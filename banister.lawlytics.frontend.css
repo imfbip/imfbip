@@ -163,7 +163,7 @@ button:focus {
 }
 
 /* Montserrat Extra Bold + Source Serif Pro */
-/*
+
 .title,
 h1,
 h1 a,
@@ -182,6 +182,11 @@ h6 a {
     color: var(--base);
 } 
 
+header .mainNav a {
+    color: var(--base);
+    text-transform: uppercase;
+}
+
 body,
 p {
     font-family: 'Roboto', sans-serif !important;
@@ -193,7 +198,7 @@ input,
 textarea {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-} */
+} 
 
 /* ====================
 Color Palette #21
@@ -231,7 +236,7 @@ footer {
 
 .hero-overlay {
     background: #fff0 !important; /*override overlay color -- removing it */
-    padding: 0 !important;
+    /*! padding: 0 !important; */
 }
 
 .full-space-overlay,
@@ -325,7 +330,7 @@ Custom
 }
 
 #siteCanvas .fa-bars {
-    color: var(--shade-white);
+    color: var(--base);
 }
 
 #siteCanvas .fa-bars:hover  {
