@@ -278,10 +278,8 @@ Background Images
   padding: var(--section-l-calc) !important;
   padding: var(--section-l-clamp) !important;
   background: linear-gradient(180deg, rgba(242,234,224,0.4), rgba(24,23,28,0.4)), url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
-    background-position-y: 0%, 0%;
-    background-attachment: scroll, scroll;
-    background-size: auto, auto;
   background-size: cover;
+  min-height: 960px;
 }
 
 .full-space {
@@ -297,9 +295,9 @@ Custom
 ==================== */
 
 .hero {
-  background-position-y: var(--space-l);
-     background-position-y: var(--space-l-calc);
-     background-position-y: var(--space-l-clamp);
+  /*! background-position-y: var(--space-l); */
+     /*! background-position-y: var(--space-l-calc); */
+     /*! background-position-y: var(--space-l-clamp); */
   background-attachment: initial;
  
 }
