@@ -12,7 +12,7 @@
   ***/
 
     --vp-min: 32; /* Viewport Min Size in REM (32 = 320px) */
-    --vp-max: 128; /* Viewport Max Size in REM (128 = 1280px) */
+    --vp-max: 144; /* Viewport Max Size in REM (128 = 1280px) */
 
   /*
   GLOBAL COLOR SETUP (HSL)
@@ -37,8 +37,8 @@
 
     /* BASE COLOR HSL VALUES */
     --base-h: 213;
-    --base-s: 41%;
-    --base-l: 11%;
+    --base-s: 50%;
+    --base-l: 9%;
 
     /* SHADE COLOR HSL VALUES
     Defaulted to black/white & generates grays.
