@@ -551,26 +551,38 @@
 
 .pad--xxl {
     padding: var(--space-xxl);
+  padding: var(--space-xxl-calc);
+  padding: var(--space-xxl-clamp);
 }
 
 .pad--xl {
-    padding: var(--space-xl);
+      padding: var(--space-xl);
+  padding: var(--space-xl-calc);
+  padding: var(--space-xl-clamp);
 }
 
 .pad--l {
-    padding: var(--space-l);
+       padding: var(--space-l);
+  padding: var(--space-l-calc);
+  padding: var(--space-l-clamp);
 }
 
 .pad--m {
     padding: var(--space-m);
+    padding: var(--space-m-calc);
+  padding: var(--space-m-clamp);
 }
 
 .pad--s {
     padding: var(--space-s);
+      padding: var(--space-s-calc);
+  padding: var(--space-s-clamp);
 }
 
 .pad--xs {
     padding: var(--space-xs);
+        padding: var(--space-xs-calc);
+  padding: var(--space-xs-clamp);
 }
 
 .pad-section--none {
