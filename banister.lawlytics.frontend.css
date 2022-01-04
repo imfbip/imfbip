@@ -273,7 +273,8 @@ Background Images
 ==================== */
 
 .hero {
-    background-image: url(https://s3.amazonaws.com/law-media/uploads/2850/169252/large/Stopcounterfeiting-happy-business.jpg);
+    background-image: url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
+    object-fit: cover;
 }
 
 .full-space {
