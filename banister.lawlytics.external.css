@@ -460,6 +460,7 @@
     --section-xl-max: calc(var(--space-xl-max) * var(--space-adjust-section));
     --section-xxl-min: calc(var(--space-xxl-min) * var(--mob-space-adjust-section));
     --section-xxl-max: calc(var(--space-xxl-max) * var(--space-adjust-section));
+    --section-padding-x: var(--space-m);
     --section-space-xs: var(--section-space-xs-pure);
     --section-space-s: var(--section-space-s-pure);
     --section-space-m: var(--section-space-m-pure);
@@ -484,6 +485,18 @@
     --section-l: var(--section-space-l) var(--section-padding-x);
     --section-xl: var(--section-space-xl) var(--section-padding-x);
     --section-xxl: var(--section-space-xxl) var(--section-padding-x);
+      --section-xs-calc: var(--section-space-xs-calc) var(--section-padding-x);
+    --section-s-calc: var(--section-space-s-calc) var(--section-padding-x);
+    --section-m-calc: var(--section-space-m-calc) var(--section-padding-x);
+    --section-l-calc: var(--section-space-l-calc) var(--section-padding-x);
+    --section-xl-calc: var(--section-space-xl-calc) var(--section-padding-x);
+    --section-xx-calc: var(--section-space-xxl-calc) var(--section-padding-x);
+      --section-xs-clamp: var(--section-space-xs) var(--section-padding-x);
+    --section-s-clamp: var(--section-space-s-clamp) var(--section-padding-x);
+    --section-m-clamp: var(--section-space-m-clamp) var(--section-padding-x);
+    --section-l-clamp: var(--section-space-l-clamp) var(--section-padding-x);
+    --section-xl-clamp: var(--section-space-xl-clamp) var(--section-padding-x);
+    --section-xxl-clamp: var(--section-space-xxl-clamp) var(--section-padding-x);
     --radius-xs: calc(var(--radius-s) / var(--radius-scale));
     --radius-s: calc(var(--base-radius) / var(--radius-scale));
     --radius-m: var(--base-radius);
@@ -586,7 +599,10 @@
 }
 
 .pad-section--none {
-    padding: 0 var(--space-m);
+
+      padding: 0 var(--space-m);
+    padding: 0 var(--space-m-calc);
+  padding: 0 var(--space-m-clamp);
 }
 
 .pad-section--xxl {
