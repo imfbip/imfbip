@@ -948,24 +948,24 @@ h6 {
 
 /* Max width utility classes */
 
-.c-max-width-320 {
-    max-width: 320px;
+.max-width-xs {
+    max-width: var(--width-xs);
 }
 
-.c-max-width-480 {
-    max-width: 480px;
+.max-width-s {
+    max-width: var(--width-s);
 }
 
-.c-max-width-640 {
-    max-width: 640px;
+.max-width-m {
+    max-width: var(--width-m);
 }
 
-.c-max-width-960 {
-    max-width: 960px;
+.max-width-l {
+    max-width: var(--width-l);
 }
 
-.c-max-width-1120 {
-    max-width: 1120px;
+.max-width-xl {
+    max-width: var(--width-xl);
 }
 
 /* Effects */
@@ -1609,13 +1609,5 @@ color: var(--shade-black) !important;
     }
 }
     
-    .grid-container {
-        display: grid;
-        grid-column-gap: var(--space-s);
-        grid-column-gap: var(--space-s-calc);
-        grid-column-gap: var(--space-s-clamp);
-        grid-row-gap: var(--space-s);
-        grid-row-gap: var(--space-s-calc);
-        grid-row-gap: var(--space-s-clamp);
-    }
-    .grid-item {}
+
+
