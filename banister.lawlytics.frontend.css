@@ -1016,3 +1016,17 @@ fill: var(--primary);
 fill: var(--primary);
     opacity:0.6;
 }
+
+/* mainNav OVERRIDES */
+
+/* fixes the padding of navbar*/
+@media screen and (min-width:62em) {
+
+    .mainNav > ul > li:last-of-type {
+        margin-right: 0 !important;
+    }
+    .mainNav > ul > li {
+        margin-right: var(--space-m) !important;
+}
+
+}
