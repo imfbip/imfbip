@@ -1001,9 +1001,10 @@ input[type=checkbox] {
 
 /* Shape divider color*/
 
-.shaper-divider>svg>path #wave-1 {
+#wave-1 {
 fill: var(--primary);
 }
-.shaper-divider>svg>path #wave-2 {
-fill: var(--primary-trans-60);
+#wave-2 {
+fill: var(--primary);
+    opacity:0.6;
 }
