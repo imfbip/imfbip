@@ -36,9 +36,9 @@
     --accent-l: 50%;
 
     /* BASE COLOR HSL VALUES */
-    --base-h: 252;
-    --base-s: 10%;
-    --base-l: 10%;
+    --base-h: 213;
+    --base-s: 41%;
+    --base-l: 11%;
 
     /* SHADE COLOR HSL VALUES
     Defaulted to black/white & generates grays.
