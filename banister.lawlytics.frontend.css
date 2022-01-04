@@ -826,6 +826,7 @@ MTA
     width: 55px;
 }
 
+/*
 .partner {
     margin: 6em auto 0;
     max-width: 600px;
@@ -851,6 +852,18 @@ MTA
     font-size: 1.125em;
     font-weight: 800;
     letter-spacing: 1px;
+}
+*/
+
+.atty-pic {
+    position:absolute;
+    right: 1rem;
+    top: -5rem;
+}
+
+div[class*="c-card"]{
+    margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 .button {
