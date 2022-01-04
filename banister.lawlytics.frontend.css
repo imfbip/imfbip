@@ -908,10 +908,18 @@ input[type=checkbox] {
     color: var(--shade-white);
 }
 
+/* Spaces section */
+
 .spaces {
     background: var(--base);
     color: var(--shade-white);
 }
+
+.spaces > h1, h2, h3, h4, h5, h6, p {
+  color: var(--shade-white);
+}
+
+/* Footer */
 
 .footer-nav a,
 .copyright p,
