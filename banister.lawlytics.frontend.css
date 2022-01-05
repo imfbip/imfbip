@@ -1058,6 +1058,7 @@ START subpages overrides
 .primary-wrap .contact {
     max-width: var(--width-s);
     margin: auto;
+    padding-left: unset !important;
 }
 
 .subpage-title {
@@ -1077,7 +1078,7 @@ START subpages overrides
     
     --block-background: var(--shade-white);
     --block-text-color: var(--text-primary);
-    /* background: linear-gradient(180deg, var(--base) 0%, var(--shade-white) 100%); */
+    background: var(--base);
     color: var(--block-text-color);
     padding-top: var(--space-between-blocks);
     padding-bottom: var(--space-between-blocks);
@@ -1088,6 +1089,8 @@ START subpages overrides
   margin-right: auto;
   margin-left: auto;
   max-width: unset!important;
+  padding: var(--space-m);
+  padding: var(--space-m-calc);
 }
 
 @media (min-width:576px) {
@@ -1143,8 +1146,8 @@ START subpages overrides
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  /*! margin-right: -15px; */
+  /*! margin-left: -15px; */
 
   /* px-2 */
   padding-right: .5rem!important;
@@ -1159,7 +1162,7 @@ START subpages overrides
   /*col-md-6*/
   position: relative;
   width: 100%;
-  margin: 1.5rem;
+  margin: var(--space-s-calc);
   border-radius: 10px;
     
   /* mb-4 */
@@ -1174,6 +1177,7 @@ START subpages overrides
   transition: .3s all;
     
     background: var(--shade-white);
+  height: fit-content;
 }
 
 @media (min-width:992px) { 
@@ -1244,7 +1248,7 @@ article:hover .cover .imageContainer img {
 .float_entry h2 {
     
     /*post__title */
-  font-size: 1.1rem;
+  font-size: var(--text-m-calc);
   font-weight: 600;
   line-height: 1.5;
       
@@ -1263,7 +1267,7 @@ article:hover .float_entry h2 {
 
 .meta {
       opacity: .95;
-  font-size: .9rem;
+  font-size: var(--text-s-calc);
   margin: 0
 }
 
