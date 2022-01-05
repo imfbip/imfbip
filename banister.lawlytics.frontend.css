@@ -896,6 +896,7 @@ input[type=checkbox] {
     position: fixed;
     right: 16px;
     z-index: 110;
+    font-size: var(--text-m-calc);
 }
 
 .cta-link:hover {
@@ -931,7 +932,32 @@ input[type=checkbox] {
   justify-content: space-between;
   margin: unset !important;
   max-width: unset !important;
+    gap: var(--space-s);
 }
+
+
+@media(max-width:992px) {
+    .spaces-wrap .space {
+       max-width: var(--width-s);
+    }
+}
+
+/* Contact Form */
+
+.full_width .primary-wrap .content form {
+  margin-bottom: 0;
+  padding-right: unset !important;
+  width: 40%;
+  margin: auto;
+  float: unset;
+}
+
+/* contact form */
+
+#form_3605 .fields label {
+    color: var(--shade-white);
+}
+
 
 /* Footer */
 
@@ -1063,7 +1089,6 @@ START subpages overrides
 .primary-wrap .contact {
     max-width: var(--width-s);
     margin: auto;
-    padding-left: unset !important;
 }
 
 .subpage-title {
@@ -1087,6 +1112,8 @@ START subpages overrides
     color: var(--block-text-color);
     padding-top: var(--space-between-blocks);
     padding-bottom: var(--space-between-blocks);
+    padding-left: var(--space-m-calc);
+    padding-right: var(--space-m-calc);
 }
 
 .content {
@@ -1094,8 +1121,6 @@ START subpages overrides
   margin-right: auto;
   margin-left: auto;
   max-width: unset!important;
-  padding: var(--space-m);
-  padding: var(--space-m-calc);
 }
 
 @media (min-width:576px) {
@@ -1151,8 +1176,8 @@ START subpages overrides
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  /*! margin-right: -15px; */
-  /*! margin-left: -15px; */
+  margin-right: -15px;
+  margin-left: -15px;
 
   /* px-2 */
   padding-right: .5rem!important;
@@ -1167,7 +1192,7 @@ START subpages overrides
   /*col-md-6*/
   position: relative;
   width: 100%;
-  margin: var(--space-s-calc);
+  margin: 1.5rem;
   border-radius: 10px;
     
   /* mb-4 */
@@ -1182,7 +1207,6 @@ START subpages overrides
   transition: .3s all;
     
     background: var(--shade-white);
-  height: fit-content;
 }
 
 @media (min-width:992px) { 
@@ -1253,7 +1277,7 @@ article:hover .cover .imageContainer img {
 .float_entry h2 {
     
     /*post__title */
-  font-size: var(--text-m-calc);
+  font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.5;
       
@@ -1272,7 +1296,7 @@ article:hover .float_entry h2 {
 
 .meta {
       opacity: .95;
-  font-size: var(--text-s-calc);
+  font-size: .9rem;
   margin: 0
 }
 
