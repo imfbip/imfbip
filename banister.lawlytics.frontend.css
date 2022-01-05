@@ -940,6 +940,11 @@ START subpages overrides
     max-width: unset!important;
 }
 
+.primary-wrap .contact {
+    max-width: var(--width-s);
+    margin: auto;
+}
+
 .subpage-title {
     margin: 0 !important;
     max-width: var(--width-m);
@@ -968,7 +973,8 @@ START subpages overrides
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
+  max-width: unset!important;
 }
 
 @media (min-width:576px) {
