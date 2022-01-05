@@ -22,6 +22,9 @@ h6 a {
 header .mainNav a {
     color: var(--base);
     text-transform: uppercase;
+    font-size: var(--text-m);
+    font-size: var(--text-m-calc);
+    font-size: var(--text-m-clamp);
 }
 
 body,
@@ -35,7 +38,112 @@ input,
 textarea {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-} 
+}
+
+input {
+    margin-bottom: var(--space-s) !important;
+}
+
+textarea {
+    margin-bottom: var(--space-xxl) !important;
+}
+
+.fields label {
+    font-size: var(--text-m) !important;
+}
+
+/* ==========
+HEADER overrides
+============ */
+
+.logo {
+    padding: unset !important;
+    max-width: 25rem;
+    min-width: 18rem;
+}
+
+header {
+    
+}
+
+.fa-2x {
+    font-size: var(--text-xl-calc) !important;
+}
+
+.navPhone {
+    display: none;
+}
+
+.mobile-menu {
+    background: var(--shade-white);
+}
+
+.mobile-menu a,
+.mobile-menu h3,
+.mobile-menu .nav-toggle {
+    color: var(--base);
+}
+
+.mobile-menu a:hover {
+    color: var(--base-hover);
+}
+
+.nav-toggle .fa-times:hover {
+    color: var(--primary-hover) !important;
+}
+
+#siteCanvas .fa-bars {
+    color: var(--base);
+}
+
+#siteCanvas .fa-bars:hover  {
+    color: var(--primary-hover);
+}
+
+.lslide p a {
+    background: var(--primary) !important;
+}
+
+.lslide p a:hover {
+    background: var(--primary-hover) !important;
+}
+
+@media screen and (min-width: 62em) {
+
+    .navPhone {
+        display: block !important;
+        margin-right: 2em;
+        color: var(--shade-white);
+        /*font-size: 1.25em;*/
+        font-weight: 600;
+    }
+
+    .navPhone:hover {
+        color: var(--primary-hover);
+    }
+}
+
+header {
+    /*! background: var(--base); */
+    display:  flex !important;
+    align-content: center;
+    padding-left: var(--space-xs);
+    padding-right: var(--space-xs);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-toggle {
+    right: var(--space-xs) !important;
+}
+
+.mainNav a {
+    color: var(--shade-white);
+}
+
+/* ==========
+HEADER overrides END
+============ */
 
 /* ====================
 Color Palette #21
@@ -147,66 +255,7 @@ Custom
  
 }
 
-.navPhone {
-    display: none;
-}
 
-.mobile-menu {
-    background: var(--shade-white);
-}
-
-.mobile-menu a,
-.mobile-menu h3,
-.mobile-menu .nav-toggle {
-    color: var(--base);
-}
-
-.mobile-menu a:hover {
-    color: var(--base-hover);
-}
-
-.nav-toggle .fa-times:hover {
-    color: var(--primary-hover) !important;
-}
-
-#siteCanvas .fa-bars {
-    color: var(--base);
-}
-
-#siteCanvas .fa-bars:hover  {
-    color: var(--primary-hover);
-}
-
-.lslide p a {
-    background: var(--primary) !important;
-}
-
-.lslide p a:hover {
-    background: var(--primary-hover) !important;
-}
-
-@media screen and (min-width: 62em) {
-
-    .navPhone {
-        display: block !important;
-        margin-right: 2em;
-        color: var(--shade-white);
-        /*font-size: 1.25em;*/
-        font-weight: 600;
-    }
-
-    .navPhone:hover {
-        color: var(--primary-hover);
-    }
-}
-
-header {
-    /*! background: var(--base); */
-}
-
-.mainNav a {
-    color: var(--shade-white);
-}
 
 .phone::before {
     display: none;
@@ -225,6 +274,7 @@ header {
 margin: 0 !important;
             padding: 0 !important;
     text-align: left;
+max-width: var(--width-l);
 }
 
 .shoutout h1, .shoutout p {
@@ -233,9 +283,9 @@ margin: 0 !important;
 }
 
 .shoutout h1 {
-  font-size: var(--text-xxl);
-      font-size: var(--text-xxl-calc);
-      font-size: var(--text-xxl-clamp);
+  font-size: calc(var(--text-xxl)*1.5);
+      font-size: calc(var(--text-xxl-calc)*1.5);
+      font-size: calc(var(--text-xxl-clamp)*1.5);
 }
 
 .shoutout p {
@@ -393,7 +443,6 @@ Homebody what-we-do
 }
 
 .section1 h2 {
-    font-size: 3em;
 }
 
 .section1 h2 span {
@@ -405,16 +454,25 @@ Homebody what-we-do
     color: var(--shade-white);
 }
 
-.section1 .c-card-light p, h3 {
+div[class*="c-card"] p, 
+div[class*="c-card"] h3 {
     color: var(--base);
     text-align: left;
 }
 
-.section1 .c-card-light h3 {
-        margin-top: : var(--space-xs);
+div[class*="c-card"] p {
+  font-size: var(--text-m);
+  font-size: var(--text-m-calc);
+  font-size: var(--text-m-clamp);
+}
+
+div[class*="c-card"] h3 {
+    margin-top: : var(--space-xs);
     margin-top: var(--space-xs-calc);
     margin-bottom: var(--space-xs);
     margin-bottom: var(--space-xs-calc);
+    font-size: var(--text-l-calc);
+    font-weight: 600;
 }
 
 
@@ -432,7 +490,7 @@ Homebody what-we-do
 input[type="submit"] {
     margin: 0 auto;
     width: auto;
-    font-size: 1em;
+    font-size: var(--text-m);
     border-radius: 0;
 }
 
@@ -666,7 +724,11 @@ MTA
 }
 
 .meetAttorney-wrap h2 {
-    font-size: 1.75em;
+    font-size: var(--text-xl);
+    --text-size: var(--text-xl);
+    font-size: var(--text-xl-calc);
+    --text-size: var(--text-xl-calc);
+    font-size: var(--text-xl-clamp);
     margin-bottom: 0;
 }
 
@@ -710,7 +772,7 @@ MTA
     background: var(--primary);
     color: var(--shade-white);
     display: inline-block;
-    font-size: 1em;
+    font-size: var(--text-s);
     font-weight: 400;
     margin-top: 2rem;
     padding: 1em;
@@ -736,7 +798,7 @@ MTA
     }
 
     .meetAttorney-wrap h2 {
-        font-size: 2.5em;
+        /*! font-size: 2.5em; */
     }
 
     .meetAttorney-wrap h2:after {
@@ -825,7 +887,7 @@ input[type=checkbox] {
 
 @media screen and (min-width: 62em) {
     .mainNav {
-        flex-basis: 65%;
+        flex-basis: 75%;
     }
 }
 
@@ -927,7 +989,7 @@ fill: var(--primary);
  }
     
     .mainNav > ul > li {
-        margin-right: var(--space-s-calc) !important;
+        margin-right: var(--space-m-calc) !important;
 }
 
 }
