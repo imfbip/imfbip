@@ -171,10 +171,17 @@ a.phone:hover {
     color: var(--shade-white);
 }
 
-/* Gray */
+/* Footer */
 
 footer {
     background: var(--base);
+    padding-left: var(--space-m-calc);
+    padding-right: var(--space-m-calc);
+}
+
+.footer-wrap {
+  margin: 0;
+  max-width: unset !important;
 }
 
 /* Overlays */
@@ -650,7 +657,7 @@ background: linear-gradient(180deg, var(--primary) 0%, var(--base) 100%);
 }
 
 .recommendations-slider .widget.recommendations ul li h5 {
-    font-size: 1.5rem;
+    font-size: var(--text-m-calc) !important;
 }
 
 .recommendations-slider .widget.recommendations ul li h5 a {
@@ -669,10 +676,11 @@ background: linear-gradient(180deg, var(--primary) 0%, var(--base) 100%);
     background: #c01818;
     color: var(--shade-white);
     display: inline-block;
-    font-size: 1em;
+    font-size: var(--text-m);
     margin-top: 1.5em;
     padding: 1em;
     transition: .2s background;
+    font-size: var(--text-m-calc);
 }
 
 .recommendations-slider .widget.recommendations ul li p a:hover {
@@ -795,12 +803,13 @@ MTA
     background: var(--primary);
     color: var(--shade-white);
     display: inline-block;
-    font-size: var(--text-s);
+    font-size: var(--text-m);
     font-weight: 400;
     margin-top: 2rem;
-    padding: 1em;
     text-transform: none;
     border-radius: 0;
+    font-size: var(--text-m-calc);
+    padding: var(--space-s-calc) var(--space-m-calc) var(--space-s-calc) var(--space-m-calc);
 }
 
 .button:hover {
@@ -894,6 +903,9 @@ input[type=checkbox] {
 .spaces {
     background: var(--base);
     color: var(--shade-white);
+    padding-left: var(--space-m-calc);
+    padding-right: var(--space-m-calc);
+    justify-content: space-between;
 }
 
 .spaces h1, .spaces h2, .spaces h3, .spaces h4, .spaces h5, .spaces h6, .spaces p {
@@ -901,11 +913,19 @@ input[type=checkbox] {
 }
 
 .space h3 {
-    font-size: var(--text-l);
+    font-size: var(--text-xl);
 }
 
 .space p {
-    font-size: var(--text-s);
+    font-size: var(--text-m);
+    font-size: var(--text-m-calc);
+}
+
+.spaces-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: unset !important;
+  max-width: unset !important;
 }
 
 /* Footer */
@@ -914,8 +934,8 @@ input[type=checkbox] {
 .copyright p,
 .group-disclaimer ul li a {
     color: var(--shade-white);
-    font-size: var(--text-s);
-    font-size: var(--text-s-calc);
+    font-size: var(--text-m);
+    font-size: var(--text-m-calc);
 }
 
 @media screen and (min-width: 62em) {
