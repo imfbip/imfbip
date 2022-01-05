@@ -84,8 +84,13 @@ header {
     color: var(--base);
 }
 
+.mobile-menu ul a {
+    font-size: var(--text-m);
+    font-size: var(--text-m-calc) !important;
+}
+
 .mobile-menu a:hover {
-    color: var(--base-hover);
+    color: var(--primary-hover);
 }
 
 .nav-toggle .fa-times:hover {
