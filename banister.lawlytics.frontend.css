@@ -620,6 +620,10 @@ background: linear-gradient(180deg, var(--primary) 0%, var(--base) 100%);
     z-index: 0;
 }
 
+.recommendations-slider ul[class="lightSlider lSSlide"]{
+    height: 100% !important;
+}
+
 .insertion.widget h4 {
     font-size: var(--text-xl);
         font-size: var(--text-xl-calc);
