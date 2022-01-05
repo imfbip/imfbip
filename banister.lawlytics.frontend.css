@@ -896,6 +896,7 @@ input[type=checkbox] {
     position: fixed;
     right: 16px;
     z-index: 110;
+    font-size: var(--text-m-calc);
 }
 
 .cta-link:hover {
