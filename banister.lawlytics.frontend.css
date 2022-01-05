@@ -1277,7 +1277,7 @@ article:hover .cover .imageContainer img {
 .float_entry h2 {
     
     /*post__title */
-  font-size: 1.1rem;
+  font-size: var(--text-m-calc);
   font-weight: 600;
   line-height: 1.5;
       
@@ -1296,8 +1296,18 @@ article:hover .float_entry h2 {
 
 .meta {
       opacity: .95;
-  font-size: .9rem;
+  font-size: var(--text-s-calc);
   margin: 0
+}
+
+.subpage-title h1 {
+  font-size: var(--text-xxl-calc);
+  line-height: 1.125;
+  margin: 0;
+}
+
+.continue a {
+    font-size: var(--text-s-calc);
 }
 
 .summary {
