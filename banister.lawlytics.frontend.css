@@ -947,54 +947,210 @@ START subpages overrides
     color: var(--base);
 }
 
-/*.content is the content area under div.primary-wrap*/
-.content {
+.primary {
     
+    padding: 0;
+    
+    --block-background: var(--shade-white);
+    --block-text-color: var(--text-primary);
+    background: var(--block-background);
+    color: var(--block-text-color);
+    padding-top: var(--space-between-blocks);
+    padding-bottom: var(--space-between-blocks);
 }
 
-    /* div.blog_posts contains the blog index*/
+.content {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
 
-    .blog_posts {
+@media (min-width:576px) {
+  .content {
+    max-width: 540px
+  }
+}
 
-    }
+@media (min-width:768px) {
+  .content {
+    max-width: 720px
+  }
+}
 
-    .blog_posts article { /* The post card */
+@media (min-width:992px) {
+  .content {
+    max-width: 960px
+  }
+}
 
-    }
+@media (min-width:1200px) {
+  .content {
+    max-width: 1140px
+  }
+}
 
-    /* .cover div containing featured image of post */
+@media print {
 
-    article .cover {
+@page {
+    size: a3
+  }
+ .content {
+    min-width: 992px!important
+  }
 
-    }
-
-        /* .imageContainer is the featured image of post */
-        .cover .imageContainer {
-
-        }
+}
 
 
-        /*.float_entry div contains post details */
-        .float_entry {
+/* giving .blog_posts .row properties */
+.blog_posts{
+  /* .row */
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 
-        }
+  /* px-2 */
+  padding-right: .5rem!important;
 
-            .float_entry h2 { /* Post title */
+  /* position-relative */
+  position: relative!important;
+}
 
-            }
+/* giving article  class="col-lg-4 mb-4 mb-lg-0 post" properties */
 
-            .float_entry .meta { /* Post details like author and date */
+.blog_posts article {
+  /*col-md-6*/
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 
-            }
+  /* mb-4 */
 
-            .float_entry .summary { /* Post excerpt*/
+  margin-bottom: 1.5rem!important;
 
-            }
 
-            .float_entry .continue { /* Link to blog post */
+  /* post */  
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s all;
+}
 
-            }
+@media (min-width:992px) { 
+  .blog_posts article {
 
+    /* col-lg-4 */
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+
+
+  /* mb-lg-0 */
+      margin-bottom: 0!important
+  }
+
+}
+
+/* giving .cover  class="post__img-container pb-1"  */
+
+article .cover {
+    
+    /* Remove lawlytics settings */
+    
+    float: unset !important;
+    margin-right: unset !important;
+    width: 100% !important;
+    
+    /*pb-1*/
+   padding-bottom: .25rem!important;
+}
+
+/* giving .cover imageContainer  class="post__img" properties */
+
+.cover .imageContainer img {
+  width: 100%;
+  border-radius: 10px;
+  filter: drop-shadow(0 10px 8px rgba(0, 0, 0, .1));
+  transition: .5s;
+  max-height: 25rem;
+  object-fit: cover;
+}
+
+article:focus .cover .imageContainer img,
+article:hover .cover .imageContainer img {
+  transform: translateY(-5px)
+}
+    
+
+/* give float entry  class="px-4 mt-4 text-center"  */
+
+.float_entry {
+    
+    /* px-4 */
+      padding-right: 1.5rem!important;
+      padding-left: 1.5rem!important;
+    
+    /* mt-4 */
+      margin-top: 1.5rem!important;
+    
+    /*text-center */
+    
+    text-align: center!important;
+}
+
+/* give .float_entry h2  class="post__title mb-3" */
+
+.float_entry h2 {
+    
+    /*post__title */
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+      
+        /* mb-3 */
+
+  margin-bottom: 1rem!important;
+}
+
+article:focus .float_entry h2,
+article:hover .float_entry h2 {
+  text-decoration: underline
+}
+
+
+/* give .meta  class="post__info" */
+
+.meta {
+      opacity: .95;
+  font-size: .9rem;
+  margin: 0
+}
+
+.summary {
+    display: none;
+ 
+}
+
+.continue {
+    height: 1rem;
+    display: block;
+}
+
+.continue a {
+    display:none;
+    transition: .5s;
+}
+
+article:focus .continue a,
+article:hover .continue a {
+    display: block;
+    transition: .5s;
+}
 
 /* ===========
 END subpages overrides
