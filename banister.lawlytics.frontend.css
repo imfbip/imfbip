@@ -932,7 +932,9 @@ fill: var(--primary);
 
 }
 
-/* Subpage styles overrides */
+/* ===========
+START subpages overrides
+=========== */
 
 .subpage-title {
     margin: 0 !important;
@@ -944,3 +946,57 @@ fill: var(--primary);
 .subpage-title h1 {
     color: var(--base);
 }
+
+/*.content is the content area under div.primary-wrap*/
+.content {
+    
+}
+
+    /* div.blog_posts contains the blog index*/
+
+    .blog_posts {
+
+    }
+
+    .blog_posts article { /* The post card */
+
+    }
+
+    /* .cover div containing featured image of post */
+
+    article .cover {
+
+    }
+
+        /* .imageContainer is the featured image of post */
+        .cover .imageContainer {
+
+        }
+
+
+        /*.float_entry div contains post details */
+        .float_entry {
+
+        }
+
+            .float_entry h2 { /* Post title */
+
+            }
+
+            .float_entry .meta { /* Post details like author and date */
+
+            }
+
+            .float_entry .summary { /* Post excerpt*/
+
+            }
+
+            .float_entry .continue { /* Link to blog post */
+
+            }
+
+
+/* ===========
+END subpages overrides
+=========== */
+
