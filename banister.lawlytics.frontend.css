@@ -236,7 +236,7 @@ footer {
 
 .hero-overlay {
     background: #fff0 !important; /*override overlay color -- removing it */
-    /*! padding: 0 !important; */
+    padding: 0 !important;
 }
 
 .full-space-overlay,
@@ -1094,3 +1094,13 @@ fill: var(--primary);
 }
 
 }
+
+/* Subpage styles overrides */
+
+.subpage-title {
+    margin: 0 !important;
+    max-width: var(--width-m);
+    text-align: left;
+}
+
+
