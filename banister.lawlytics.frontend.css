@@ -936,6 +936,10 @@ fill: var(--primary);
 START subpages overrides
 =========== */
 
+.primary-wrap {
+    max-width: unset!important;
+}
+
 .subpage-title {
     margin: 0 !important;
     max-width: var(--width-m);
@@ -1101,6 +1105,7 @@ article:hover .cover .imageContainer img {
     /*text-center */
     
     text-align: center!important;
+    overflow: visible;
 }
 
 /* give .float_entry h2  class="post__title mb-3" */
