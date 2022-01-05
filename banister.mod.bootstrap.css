@@ -5,6 +5,7 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * -- modified to fix website quirks
  */
 
 :root {
@@ -165,7 +166,7 @@ a {
 
 a:hover {
   color: var(--primary-hover);
-  text-decoration: underline
+  text-decoration: none
 }
 
 a:not([href]) {
@@ -3312,12 +3313,12 @@ fieldset:disabled a.btn {
 
 .btn-link:hover {
   color: var(--primary-hover);
-  text-decoration: underline
+  text-decoration: none
 }
 
 .btn-link.focus,
 .btn-link:focus {
-  text-decoration: underline;
+  text-decoration: none;
   box-shadow: none
 }
 
@@ -10494,7 +10495,7 @@ a.text-dark:hover {
     box-shadow: none!important
   }
   a:not(.btn) {
-    text-decoration: underline
+    text-decoration: none
   }
   abbr[title]::after {
     content: " (" attr(title) ")"
