@@ -962,7 +962,7 @@ START subpages overrides
     
     --block-background: var(--shade-white);
     --block-text-color: var(--text-primary);
-    background: linear-gradient(180deg, var(--base) 0%, var(--shade-white) 100%);
+    /* background: linear-gradient(180deg, var(--base) 0%, var(--shade-white) 100%); */
     color: var(--block-text-color);
     padding-top: var(--space-between-blocks);
     padding-bottom: var(--space-between-blocks);
