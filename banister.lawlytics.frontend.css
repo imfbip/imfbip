@@ -578,6 +578,18 @@ Homebody Section2
     padding: 0;
 }
 
+/* 
+Recommendation slider
+*/
+
+.recommendations-slider .summary {
+    display: block;
+    
+    font-size: var(--text-m);
+    font-size: var(--text-m-calc);
+    font-size: var(--text-m-clamp);
+}
+
 .recommendations-slider {
     /*! background-image: url(https://s3.amazonaws.com/law-media/layouts/110/assets/img/footer.jpg); */
     /*! background-position: center; */
@@ -606,6 +618,13 @@ background: linear-gradient(180deg, var(--primary) 0%, var(--base) 100%);
     /*! top: 0; */
     /*! width: 100%; */
     z-index: 0;
+}
+
+.insertion.widget h4 {
+    font-size: var(--text-xl);
+        font-size: var(--text-xl-calc);
+        font-size: var(--text-xl-clamp);
+    font-weight: 700;
 }
 
 .recommendations-slider .insertion.widget {
@@ -877,12 +896,22 @@ input[type=checkbox] {
   color: var(--shade-white);
 }
 
+.space h3 {
+    font-size: var(--text-l);
+}
+
+.space p {
+    font-size: var(--text-s);
+}
+
 /* Footer */
 
 .footer-nav a,
 .copyright p,
 .group-disclaimer ul li a {
     color: var(--shade-white);
+    font-size: var(--text-s);
+    font-size: var(--text-s-calc);
 }
 
 @media screen and (min-width: 62em) {
