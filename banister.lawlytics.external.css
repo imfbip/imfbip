@@ -287,7 +287,9 @@
 
   /*** END SETUP ***/
 }
-
+html {
+  font-size: var(--root-font-size);
+}
 :root {
     --primary: hsl(var(--primary-h), var(--primary-s), var(--primary-l));
     --primary-hover: hsl(var(--primary-h), var(--primary-s), calc(var(--primary-l) * var(--primary-hover-val)));
