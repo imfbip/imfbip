@@ -1001,6 +1001,16 @@ START subpages overrides
   }
 }
 
+@media screen and (min-width:62em) {
+ .primary .content .blog_posts article .cover {
+  float:left;
+  margin-right:1.5rem
+ }
+ .primary .content .blog_posts article .float_entry {
+  overflow: visible!important;
+ }
+}
+
 @media print {
 
 @page {
@@ -1164,6 +1174,7 @@ article:hover .continue a {
     display: block;
     transition: .5s;
 }
+
 
 /* ===========
 END subpages overrides
