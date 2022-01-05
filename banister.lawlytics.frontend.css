@@ -284,7 +284,10 @@ Background Images
   padding: var(--section-l-clamp) !important;
   background: linear-gradient(180deg, rgba(242,234,224,0.4) 0%, rgba(24,23,28,0.4)) 100%, url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
   background-size: cover;
-  min-height: 960px;
+  min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .full-space {
