@@ -1104,3 +1104,6 @@ fill: var(--primary);
 }
 
 
+.subpage-title h1 {
+    color: var(--base);
+}
