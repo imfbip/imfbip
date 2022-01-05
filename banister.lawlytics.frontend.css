@@ -962,7 +962,7 @@ START subpages overrides
     
     --block-background: var(--shade-white);
     --block-text-color: var(--text-primary);
-    background: var(--block-background);
+    background: linear-gradient(180deg, var(--base) 0%, var(--shade-white) 100%);
     color: var(--block-text-color);
     padding-top: var(--space-between-blocks);
     padding-bottom: var(--space-between-blocks);
@@ -1036,9 +1036,9 @@ START subpages overrides
   /*col-md-6*/
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-
+  margin: 1.5rem;
+  border-radius: 10px;
+    
   /* mb-4 */
 
   margin-bottom: 1.5rem!important;
@@ -1049,6 +1049,8 @@ START subpages overrides
   text-decoration: none;
   cursor: pointer;
   transition: .3s all;
+    
+    background: var(--shade-white);
 }
 
 @media (min-width:992px) { 
