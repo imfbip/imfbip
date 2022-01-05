@@ -1123,7 +1123,7 @@ article:hover .cover .imageContainer img {
     /*text-center */
     
     text-align: center!important;
-    overflow: visible;
+    overflow: visible!important;
 }
 
 /* give .float_entry h2  class="post__title mb-3" */
