@@ -166,3 +166,22 @@ body[data-parent-id="262497"] pre code {
   font-size: var(--text-m);
   font-size: var(--text-m-calc);
 }
+
+body[data-parent-id="262497"] .social-share {
+  font-size: var(--text-s);
+  font-size: var(--text-s-calc);
+ 
+}
+
+body[data-parent-id="262497"] .comments, 
+body[data-parent-id="262497"] form label {
+  font-size: var(--text-m);
+  font-size: var(--text-m-calc);
+}
+
+body[data-parent-id="262497"] fieldset {
+  padding: var(--space-m);
+  padding: var(--space-m-calc);
+  margin-top: var(--space-s);
+}
+
