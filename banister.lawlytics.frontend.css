@@ -596,7 +596,6 @@ Recommendation slider
 
 .recommendations-slider .summary {
     display: block;
-    
     font-size: var(--text-m);
     font-size: var(--text-m-calc);
     font-size: var(--text-m-clamp);
@@ -1061,6 +1060,21 @@ START subpages overrides
     max-width: unset!important;
 }
 
+body[data-page-id="262497"] .primary-wrap {
+  display: grid; 
+  grid-template-columns: 2.5fr 1fr; 
+  gap: 0px var(--space-m-calc);
+    padding: var(--space-m-calc);
+}
+
+@media (max-width:992px) {
+  body[data-page-id="262497"] .primary-wrap {
+      display: grid; 
+      grid-template-columns: 1fr; 
+      gap: 0px var(--space-m-calc); 
+    }
+}
+
 .primary-wrap .contact {
     max-width: var(--width-s);
     margin: auto;
@@ -1143,21 +1157,27 @@ START subpages overrides
 }
 
 
-/* giving .blog_posts .row properties */
-.blog_posts{
-  /* .row */
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  /*! margin-right: -15px; */
-  /*! margin-left: -15px; */
+/* Blog post list container grid */
+body[data-page-id="262497"] .blog_posts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: var(--space-m-calc); 
+}
 
-  /* px-2 */
-  padding-right: .5rem!important;
+@media (max-width:992px) {
+    body[data-page-id="262497"] .blog_posts{
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: var(--space-m-calc); 
+    }
+}
 
-  /* position-relative */
-  position: relative!important;
+@media (max-width:480px) {
+    body[data-page-id="262497"] .blog_posts{
+        display: grid; 
+        grid-template-columns: 1fr; 
+        gap: var(--space-m-calc); 
+    }
 }
 
 /* giving article  class="col-lg-4 mb-4 mb-lg-0 post" properties */
@@ -1166,7 +1186,7 @@ START subpages overrides
   /*col-md-6*/
   position: relative;
   width: 100%;
-  margin: var(--space-s-calc) !important;
+  /*! margin: var(--space-s-calc) !important; */
   border-radius: 10px;
     
   /* mb-4 */
@@ -1188,9 +1208,9 @@ START subpages overrides
   .blog_posts article {
 
     /* col-lg-4 */
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 fit-content;
-    max-width: fit-content;
+    /*! -ms-flex: 0 0 33.333333%; */
+    /*! flex: 0 0 fit-content; */
+    /*! max-width: fit-content; */
 
 
   /* mb-lg-0 */
