@@ -2,17 +2,35 @@
 Blog Post Article template override
 === */
 
-body[data-parent-id="262497"] p {
- 
-    
+body[data-parent-id="262497"] .primary {
+    background: linear-gradient(var(--base) 0%, var(--shade-white) 50%);
 }
 
 body[data-parent-id="262497"] .primary-wrap {
-    background: var(--);
+  position: relative;
+}
+
+body[data-parent-id="262497"] .primary-wrap .contact {
+  margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  body[data-parent-id="262497"] .primary-wrap .contact {
+    margin: auto;
+    min-width: 80% !important;
+  }
+  
+  .primary-wrap .contact {
+    min-width: 80% !important;
+  }
 }
 
 body[data-parent-id="262497"] aside {
-    display: none;
+  position: relative;
+}
+
+body[data-parent-id="262497"] aside .form-wrap {
+  position: sticky;
 }
 
 /*------------------------------*/
@@ -24,7 +42,7 @@ body[data-parent-id="262497"] article {
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
-      padding: var(--space-l-calc);
+  padding: var(--space-l-calc);
   cursor:default;
 }
 
@@ -104,10 +122,12 @@ body[data-parent-id="262497"] article video {
 }
 
 body[data-parent-id="262497"] pre {
-  background: #333;
-  color: #fff;
+  background: var(--shade-medium);
+  color: var(--shade-white);
   padding: 1rem;
-  border-radius: 5px
+  border-radius: 5px;
+  font-size: var(--text-m);
+  font-size: var(--text-m-calc);
 }
 
 body[data-parent-id="262497"] ol,
@@ -123,6 +143,26 @@ body[data-parent-id="262497"] blockquote {
   background: rgba(0, 0, 0, .02);
   font-style: italic;
   margin-top: 2rem;
-  border-left: 2px solid rgba(0, 0, 0, .1)
+  border-left: 2px solid rgba(0, 0, 0, .1);
+  font-size: var(--text-m);
+  font-size: var(--text-m-calc);
 }
 
+body[data-parent-id="262497"] code {
+  font-size: var(--text-m);
+  font-size: var(--text-m-calc);
+  color: var(--accent);
+}
+
+body[data-parent-id="262497"] pre code {
+  font-size: var(--text-m);
+  font-size: var(--text-m-calc);
+  color: var(--shade-white);
+}
+
+.widget.blog_search input[type="text"] {
+  padding: 5px 2%;
+  width: 100%;
+  font-size: var(--text-m);
+  font-size: var(--text-m-calc);
+}
