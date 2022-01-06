@@ -1,0 +1,11 @@
+/*==== 
+Blog Post Article template override
+=== */
+
+body[data-parent-id="262497"] {
+    
+}
+
+body[data-parent-id="262497"] .primary-wrap {
+    background: var(--shade-white);
+}
