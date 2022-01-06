@@ -1095,8 +1095,8 @@ START subpages overrides
   margin-right: auto;
   margin-left: auto;
   max-width: unset!important;
-  padding: var(--space-m);
-  padding: var(--space-m-calc);
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 @media (min-width:576px) {
