@@ -4,6 +4,8 @@ Blog Post Article template override
 
 body[data-parent-id="262497"] .primary {
     background: linear-gradient(var(--base) 0%, var(--shade-white) 50%);
+  padding-top: var(--space-xxl-calc);
+  padding-bottom: var(--space-xxl-calc);
 }
 
 body[data-parent-id="262497"] .primary-wrap {
