@@ -1095,8 +1095,6 @@ START subpages overrides
   margin-right: auto;
   margin-left: auto;
   max-width: unset!important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 }
 
 @media (min-width:576px) {
@@ -1168,12 +1166,12 @@ START subpages overrides
   /*col-md-6*/
   position: relative;
   width: 100%;
-  margin: var(--space-s-calc);
+  margin: var(--space-s-calc) !important;
   border-radius: 10px;
     
   /* mb-4 */
 
-  margin-bottom: 1.5rem!important;
+  /*! margin-bottom: 1.5rem!important; */
 
 
   /* post */  
@@ -1191,12 +1189,12 @@ START subpages overrides
 
     /* col-lg-4 */
     -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    flex: 0 0 fit-content;
+    max-width: fit-content;
 
 
   /* mb-lg-0 */
-      margin-bottom: 0!important
+      /*! margin-bottom: unset !important; */
   }
 
 }
@@ -1283,18 +1281,23 @@ article:hover .float_entry h2 {
 }
 
 .continue {
-    height: 1rem;
+    /*! height: auto; */
     display: block;
+    padding: var(--space-s-calc);
+    width: 100%;
 }
 
 .continue a {
-    display:none;
+    /*! display:none; */
     transition: .5s;
+    font-size: var(--text-s-calc);
+    padding: var(--space-xs-calc);
+    background-color: var(--primary);
+    color: var(--shade-white);
 }
 
 article:focus .continue a,
 article:hover .continue a {
-    display: block;
     transition: .5s;
 }
 
