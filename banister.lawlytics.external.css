@@ -372,7 +372,7 @@ html {
     --base-trans-10: hsla(var(--base-h), var(--base-s), var(--base-l), .1);
     --base-comp: hsl(calc(var(--base-h) + 180), var(--base-s), var(--base-l));
     --shade-black: hsl(0, 0%, 0%);
-    --shade-white: hsl(12, 29%, 93%);
+    --shade-white: ##faf6f6;
     --shade-ultra-light: hsl(var(--shade-h), var(--shade-s), 95%);
     --shade-light: hsl(var(--shade-h), var(--shade-s), 85%);
     --shade-medium: hsl(var(--shade-h), var(--shade-s), 50%);
