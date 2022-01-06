@@ -33,6 +33,7 @@ body[data-parent-id="262497"] aside {
 
 body[data-parent-id="262497"] aside .form-wrap {
   position: sticky;
+  top: 0;
 }
 
 /*------------------------------*/
