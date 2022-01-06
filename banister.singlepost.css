@@ -2,10 +2,127 @@
 Blog Post Article template override
 === */
 
-body[data-parent-id="262497"] {
+body[data-parent-id="262497"] p {
+ 
     
 }
 
 body[data-parent-id="262497"] .primary-wrap {
-    background: var(--shade-white);
+    background: var(--);
 }
+
+body[data-parent-id="262497"] aside {
+    display: none;
+}
+
+/*------------------------------*/
+/*--Section Name----------------*/
+/*------------------------------*/
+
+body[data-parent-id="262497"] article {
+  --block-background: white;
+  --block-text-color: var(--text-primary);
+  background: var(--block-background);
+  color: var(--block-text-color);
+      padding: var(--space-l-calc);
+  cursor:default;
+}
+
+body[data-parent-id="262497"] article h1 { /* Post title */
+
+}
+
+body[data-parent-id="262497"] .meta {
+  opacity: .95;
+  font-size: var(--text-s-calc);
+  margin: 0;
+}
+
+body[data-parent-id="262497"] .meta a { /* author */
+  color: var(--primary);
+  position: relative;
+   padding-right: 15px;
+}
+
+body[data-parent-id="262497"] article a:focus,
+body[data-parent-id="262497"] article a:hover {
+  color: var(--primary-hover);
+  text-decoration: underline !important;
+ 
+}
+
+body[data-parent-id="262497"] .meta a::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 90%;
+  margin: auto;
+  width: 3px;
+  transform: rotate(10deg);
+  background: var(--primary)
+}
+
+/* where is my featured image located? */
+/*.article-block__header-img {
+  width: 100%;
+  border-radius: 10px;
+  filter: drop-shadow(0 10px 8px rgba(0, 0, 0, .1))
+}
+*/
+
+body[data-parent-id="262497"] article h2,
+body[data-parent-id="262497"] article h3,
+body[data-parent-id="262497"] article h4,
+body[data-parent-id="262497"] article h5,
+body[data-parent-id="262497"] article h6 {
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem
+}
+
+/*.article-container__title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0
+}*/
+
+body[data-parent-id="262497"] article p {
+  line-height: 2.1;
+  margin-bottom: 1rem;
+    font-size: var(--text-m);
+  font-size: var(--text-m-calc);
+}
+
+
+body[data-parent-id="262497"] article img,
+body[data-parent-id="262497"] article video {
+  width: 100%
+}
+
+body[data-parent-id="262497"] pre {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px
+}
+
+body[data-parent-id="262497"] ol,
+body[data-parent-id="262497"] ul {
+  line-height: 2;
+    font-size: var(--text-m);
+  font-size: var(--text-m-calc);
+}
+
+body[data-parent-id="262497"] blockquote {
+  margin: 0 0 1rem;
+  padding: 1rem 1rem 1px 1rem;
+  background: rgba(0, 0, 0, .02);
+  font-style: italic;
+  margin-top: 2rem;
+  border-left: 2px solid rgba(0, 0, 0, .1)
+}
+
