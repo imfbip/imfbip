@@ -15,27 +15,72 @@
       margin-top: 0px;
   }
 
-  .what-we-do-block:not(.ct-section),
-  .what-we-do-block.ct-section .ct-section-inner-wrap {
-      display: grid !important;
-      grid-template-columns: repeat(5, minmax(0px, 1fr));
-      grid-template-rows: auto;
-      grid-auto-columns: 1fr;
-      grid-column-gap: var(--space-l);
-      grid-row-gap: var(--space-l);
-      grid-template-areas:
-          ". . . . .";
-  }
+  /*START What we do grid*/
 
-  .what-we-do-block:not(.ct-section)> :nth-child(1),
-  .what-we-do-block.ct-section .ct-section-inner-wrap> :nth-child(1) {
-      grid-column: span 3;
-  }
+    .what-we-do-block:not(.ct-section),
+    .what-we-do-block.ct-section .ct-section-inner-wrap {
+        display: grid !important;
+        grid-template-columns: repeat(5, minmax(0px, 1fr));
+        grid-template-rows: auto;
+        grid-auto-columns: 1fr;
+        grid-column-gap: var(--space-l);
+        grid-row-gap: var(--space-l);
+        grid-template-areas:
+            ". . . . .";
+    }
 
-  .what-we-do-block:not(.ct-section)> :last-child,
-  .what-we-do-block.ct-section .ct-section-inner-wrap> :last-child {
-      grid-column: span 2;
-  }
+    .what-we-do-block:not(.ct-section)> :nth-child(1),
+    .what-we-do-block.ct-section .ct-section-inner-wrap> :nth-child(1) {
+        grid-column: span 3;
+    }
+
+    .what-we-do-block:not(.ct-section)> :last-child,
+    .what-we-do-block.ct-section .ct-section-inner-wrap> :last-child {
+        grid-column: span 2;
+    }
+
+    @media (max-width:1281px) {
+
+        .what-we-do-block:not(.ct-section),
+        .what-we-do-block.ct-section .ct-section-inner-wrap {
+            display: grid !important;
+            grid-template-columns: repeat(2, minmax(0px, 1fr));
+            grid-template-rows: auto;
+            grid-auto-columns: 1fr;
+            grid-column-gap: var(--space-l);
+            grid-row-gap: var(--space-l);
+            grid-template-areas:
+                ". .";
+        }
+
+        .what-we-do-block:not(.ct-section)> :nth-child(1),
+        .what-we-do-block.ct-section .ct-section-inner-wrap> :nth-child(1) {
+            grid-column: span 1;
+        }
+
+        .what-we-do-block:not(.ct-section)> :last-child,
+        .what-we-do-block.ct-section .ct-section-inner-wrap> :last-child {
+            grid-column: span 1;
+        }
+      }
+
+        @media (max-width:992px) {
+
+        .what-we-do-block:not(.ct-section),
+        .what-we-do-block.ct-section .ct-section-inner-wrap {
+            display: grid !important;
+            grid-template-columns: repeat(1, minmax(0px, 1fr));
+            grid-template-rows: auto;
+            grid-auto-columns: 1fr;
+            grid-column-gap: var(--space-l);
+            grid-row-gap: var(--space-l);
+            grid-template-areas:
+                ".";
+        }
+
+      }
+
+  /*END What we do grid*/
 
   /*START Reverses the block every other block*/
 
