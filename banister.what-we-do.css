@@ -23,6 +23,25 @@
       margin-top: 0px;
   }
 
+  .what-we-do-block__image-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-radius: var(--radius-m);
+    overflow: hidden;
+  }
+
+  .what-we-do__image-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--base-trans-40);
+  mix-blend-mode: overlay;
+}
+
   /*START What we do grid*/
 
     .what-we-do-block:not(.ct-section),
@@ -156,4 +175,4 @@
       margin-top: var(--space-m-calc);
   }
 
-/*END what we do block */
+/*END what we do block*/
