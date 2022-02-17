@@ -18,6 +18,7 @@ body {
 
 .section__title {
   margin-bottom: var(--space-xxl-calc) !important;
+  text-align: center;
 }
 
 .hero__text--lined {
