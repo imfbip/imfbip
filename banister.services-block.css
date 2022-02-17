@@ -1,0 +1,122 @@
+
+.services {
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+/*START what we do block*/
+  .services-block {
+      margin-top: var(--space-xl);
+      width: 100%;
+      color: var(--shade-white);
+  }
+
+  .services-block {
+      margin-top: var(--space-xl-calc);
+      width: 100%;
+  }
+
+  .services-block:first-of-type {
+      margin-top: 0px;
+  }
+
+  /*START What we do grid*/
+
+    .services-block:not(.ct-section),
+    .services-block.ct-section .ct-section-inner-wrap {
+        display: grid !important;
+        grid-template-columns: repeat(5, minmax(0px, 1fr));
+        grid-template-rows: auto;
+        grid-auto-columns: 1fr;
+        grid-column-gap: var(--space-l);
+        grid-row-gap: var(--space-l);
+        grid-template-areas:
+            ". . . . .";
+    }
+
+    .services-block:not(.ct-section)> :nth-child(1),
+    .services-block.ct-section .ct-section-inner-wrap> :nth-child(1) {
+        grid-column: span 3;
+    }
+
+    .services-block:not(.ct-section)> :last-child,
+    .services-block.ct-section .ct-section-inner-wrap> :last-child {
+        grid-column: span 2;
+    }
+
+    @media (max-width:1281px) {
+
+        .services-block:not(.ct-section),
+        .services-block.ct-section .ct-section-inner-wrap {
+            display: grid !important;
+            grid-template-columns: repeat(2, minmax(0px, 1fr));
+            grid-template-rows: auto;
+            grid-auto-columns: 1fr;
+            grid-column-gap: var(--space-l);
+            grid-row-gap: var(--space-l);
+            grid-template-areas:
+                ". .";
+        }
+
+        .services-block:not(.ct-section)> :nth-child(1),
+        .services-block.ct-section .ct-section-inner-wrap> :nth-child(1) {
+            grid-column: span 1;
+        }
+
+        .services-block:not(.ct-section)> :last-child,
+        .services-block.ct-section .ct-section-inner-wrap> :last-child {
+            grid-column: span 1;
+        }
+      }
+
+        @media (max-width:992px) {
+
+        .services-block:not(.ct-section),
+        .services-block.ct-section .ct-section-inner-wrap {
+            display: grid !important;
+            grid-template-columns: repeat(1, minmax(0px, 1fr));
+            grid-template-rows: auto;
+            grid-auto-columns: 1fr;
+            grid-column-gap: var(--space-l);
+            grid-row-gap: var(--space-l);
+            grid-template-areas:
+                ".";
+        }
+
+      }
+
+  /*END What we do grid*/
+
+  /*START Reverses the block every other block*/
+
+      .services-block:nth-of-type(2n) .services-block__content-wrapper {
+          order: -1;
+
+      }
+
+      @media (max-width:992px) {
+
+          .services-block__image-wrapper {
+              order: -1;
+          }
+      }
+
+  /*END Reverses the block every other block*/
+
+
+
+  .services__image {
+      border-radius: var(--radius-m)
+  }
+
+  .services__heading {
+      color: var(--base-ultra-light) !important;
+      margin-top:var(--space-s-calc);
+  }
+
+  .services__text {
+      margin-top: var(--space-m-calc);
+  }
+
+/*END what we do block*/
