@@ -1834,6 +1834,666 @@ color: var(--shade-black) !important;
     align-items: flex-start;
   }
 
+/* START BG Colors and overlay */
+
+[class*=bg--] {
+    background-color: var(--bg-color)
+}
+
+.bg--primary {
+    --bg-color: var(--primary)
+}
+
+.bg--primary-hover {
+    --bg-color: var(--primary-hover)
+}
+
+.bg--primary-ultra-light {
+    --bg-color: var(--primary-ultra-light)
+}
+
+.bg--primary-light {
+    --bg-color: var(--primary-light)
+}
+
+.bg--primary-medium {
+    --bg-color: var(--primary-medium)
+}
+
+.bg--primary-dark {
+    --bg-color: var(--primary-dark)
+}
+
+.bg--primary-ultra-dark {
+    --bg-color: var(--primary-ultra-dark)
+}
+
+.bg--primary-ultra-dark-trans-90 {
+    --bg-color: var(--primary-ultra-dark-trans-90)
+}
+
+.bg--primary-ultra-dark-trans-80 {
+    --bg-color: var(--primary-ultra-dark-trans-80)
+}
+
+.bg--primary-ultra-dark-trans-60 {
+    --bg-color: var(--primary-ultra-dark-trans-60)
+}
+
+.bg--primary-ultra-dark-trans-40 {
+    --bg-color: var(--primary-ultra-dark-trans-40)
+}
+
+.bg--primary-ultra-dark-trans-20 {
+    --bg-color: var(--primary-ultra-dark-trans-20)
+}
+
+.bg--primary-ultra-dark-trans-10 {
+    --bg-color: var(--primary-ultra-dark-trans-10)
+}
+
+.bg--primary-trans-90 {
+    --bg-color: var(--primary-trans-90)
+}
+
+.bg--primary-trans-80 {
+    --bg-color: var(--primary-trans-80)
+}
+
+.bg--primary-trans-60 {
+    --bg-color: var(--primary-trans-60)
+}
+
+.bg--primary-trans-40 {
+    --bg-color: var(--primary-trans-40)
+}
+
+.bg--primary-trans-20 {
+    --bg-color: var(--primary-trans-20)
+}
+
+.bg--primary-trans-10 {
+    --bg-color: var(--primary-trans-10)
+}
+
+.bg--primary-comp {
+    --bg-color: var(--primary-comp)
+}
+
+.bg--secondary {
+    --bg-color: var(--secondary)
+}
+
+.bg--secondary-hover {
+    --bg-color: var(--secondary-hover)
+}
+
+.bg--secondary-ultra-light {
+    --bg-color: var(--secondary-ultra-light)
+}
+
+.bg--secondary-light {
+    --bg-color: var(--secondary-light)
+}
+
+.bg--secondary-medium {
+    --bg-color: var(--secondary-medium)
+}
+
+.bg--secondary-dark {
+    --bg-color: var(--secondary-dark)
+}
+
+.bg--secondary-ultra-dark {
+    --bg-color: var(--secondary-ultra-dark)
+}
+
+.bg--secondary-ultra-dark-trans-90 {
+    --bg-color: var(--secondary-ultra-dark-trans-90)
+}
+
+.bg--secondary-ultra-dark-trans-80 {
+    --bg-color: var(--secondary-ultra-dark-trans-80)
+}
+
+.bg--secondary-ultra-dark-trans-60 {
+    --bg-color: var(--secondary-ultra-dark-trans-60)
+}
+
+.bg--secondary-ultra-dark-trans-40 {
+    --bg-color: var(--secondary-ultra-dark-trans-40)
+}
+
+.bg--secondary-ultra-dark-trans-20 {
+    --bg-color: var(--secondary-ultra-dark-trans-20)
+}
+
+.bg--secondary-ultra-dark-trans-10 {
+    --bg-color: var(--secondary-ultra-dark-trans-10)
+}
+
+.bg--secondary-trans-90 {
+    --bg-color: var(--secondary-trans-90)
+}
+
+.bg--secondary-trans-80 {
+    --bg-color: var(--secondary-trans-80)
+}
+
+.bg--secondary-trans-60 {
+    --bg-color: var(--secondary-trans-60)
+}
+
+.bg--secondary-trans-40 {
+    --bg-color: var(--secondary-trans-40)
+}
+
+.bg--secondary-trans-20 {
+    --bg-color: var(--secondary-trans-20)
+}
+
+.bg--secondary-trans-10 {
+    --bg-color: var(--secondary-trans-10)
+}
+
+.bg--secondary-comp {
+    --bg-color: var(--secondary-comp)
+}
+
+.bg--accent {
+    --bg-color: var(--accent)
+}
+
+.bg--accent-hover {
+    --bg-color: var(--accent-hover)
+}
+
+.bg--accent-ultra-light {
+    --bg-color: var(--accent-ultra-light)
+}
+
+.bg--accent-light {
+    --bg-color: var(--accent-light)
+}
+
+.bg--accent-medium {
+    --bg-color: var(--accent-medium)
+}
+
+.bg--accent-dark {
+    --bg-color: var(--accent-dark)
+}
+
+.bg--accent-ultra-dark {
+    --bg-color: var(--accent-ultra-dark)
+}
+
+.bg--accent-ultra-dark-trans-90 {
+    --bg-color: var(--accent-ultra-dark-trans-90)
+}
+
+.bg--accent-ultra-dark-trans-80 {
+    --bg-color: var(--accent-ultra-dark-trans-80)
+}
+
+.bg--accent-ultra-dark-trans-60 {
+    --bg-color: var(--accent-ultra-dark-trans-60)
+}
+
+.bg--accent-ultra-dark-trans-40 {
+    --bg-color: var(--accent-ultra-dark-trans-40)
+}
+
+.bg--accent-ultra-dark-trans-20 {
+    --bg-color: var(--accent-ultra-dark-trans-20)
+}
+
+.bg--accent-ultra-dark-trans-10 {
+    --bg-color: var(--accent-ultra-dark-trans-10)
+}
+
+.bg--accent-trans-90 {
+    --bg-color: var(--accent-trans-90)
+}
+
+.bg--accent-trans-80 {
+    --bg-color: var(--accent-trans-80)
+}
+
+.bg--accent-trans-60 {
+    --bg-color: var(--accent-trans-60)
+}
+
+.bg--accent-trans-40 {
+    --bg-color: var(--accent-trans-40)
+}
+
+.bg--accent-trans-20 {
+    --bg-color: var(--accent-trans-20)
+}
+
+.bg--accent-trans-10 {
+    --bg-color: var(--accent-trans-10)
+}
+
+.bg--accent-comp {
+    --bg-color: var(--accent-comp)
+}
+
+.bg--base {
+    --bg-color: var(--base)
+}
+
+.bg--base-hover {
+    --bg-color: var(--base-hover)
+}
+
+.bg--base-ultra-light {
+    --bg-color: var(--base-ultra-light)
+}
+
+.bg--base-light {
+    --bg-color: var(--base-light)
+}
+
+.bg--base-medium {
+    --bg-color: var(--base-medium)
+}
+
+.bg--base-dark {
+    --bg-color: var(--base-dark)
+}
+
+.bg--base-ultra-dark {
+    --bg-color: var(--base-ultra-dark)
+}
+
+.bg--base-ultra-dark-trans-90 {
+    --bg-color: var(--base-ultra-dark-trans-90)
+}
+
+.bg--base-ultra-dark-trans-80 {
+    --bg-color: var(--base-ultra-dark-trans-80)
+}
+
+.bg--base-ultra-dark-trans-60 {
+    --bg-color: var(--base-ultra-dark-trans-60)
+}
+
+.bg--base-ultra-dark-trans-40 {
+    --bg-color: var(--base-ultra-dark-trans-40)
+}
+
+.bg--base-ultra-dark-trans-20 {
+    --bg-color: var(--base-ultra-dark-trans-20)
+}
+
+.bg--base-ultra-dark-trans-10 {
+    --bg-color: var(--base-ultra-dark-trans-10)
+}
+
+.bg--base-trans-90 {
+    --bg-color: var(--base-trans-90)
+}
+
+.bg--base-trans-80 {
+    --bg-color: var(--base-trans-80)
+}
+
+.bg--base-trans-60 {
+    --bg-color: var(--base-trans-60)
+}
+
+.bg--base-trans-40 {
+    --bg-color: var(--base-trans-40)
+}
+
+.bg--base-trans-20 {
+    --bg-color: var(--base-trans-20)
+}
+
+.bg--base-trans-10 {
+    --bg-color: var(--base-trans-10)
+}
+
+.bg--base-comp {
+    --bg-color: var(--base-comp)
+}
+
+.bg--black {
+    --bg-color: var(--shade-black)
+}
+
+.bg--white {
+    --bg-color: var(--shade-white)
+}
+
+.bg--shade-ultra-light {
+    --bg-color: var(--shade-ultra-light)
+}
+
+.bg--shade-light {
+    --bg-color: var(--shade-light)
+}
+
+.bg--shade-medium {
+    --bg-color: var(--shade-medium)
+}
+
+.bg--shade-dark {
+    --bg-color: var(--shade-dark)
+}
+
+.bg--shade-ultra-dark {
+    --bg-color: var(--shade-ultra-dark)
+}
+
+.bg--shade-ultra-dark-trans-90 {
+    --bg-color: var(--shade-ultra-dark-trans-90)
+}
+
+.bg--shade-ultra-dark-trans-80 {
+    --bg-color: var(--shade-ultra-dark-trans-80)
+}
+
+.bg--shade-ultra-dark-trans-60 {
+    --bg-color: var(--shade-ultra-dark-trans-60)
+}
+
+.bg--shade-ultra-dark-trans-40 {
+    --bg-color: var(--shade-ultra-dark-trans-40)
+}
+
+.bg--shade-ultra-dark-trans-20 {
+    --bg-color: var(--shade-ultra-dark-trans-20)
+}
+
+.bg--shade-ultra-dark-trans-10 {
+    --bg-color: var(--shade-ultra-dark-trans-10)
+}
+
+.bg--black-trans-90 {
+    --bg-color: var(--black-trans-90)
+}
+
+.bg--black-trans-80 {
+    --bg-color: var(--black-trans-80)
+}
+
+.bg--black-trans-60 {
+    --bg-color: var(--black-trans-60)
+}
+
+.bg--black-trans-40 {
+    --bg-color: var(--black-trans-40)
+}
+
+.bg--black-trans-20 {
+    --bg-color: var(--black-trans-20)
+}
+
+.bg--black-trans-10 {
+    --bg-color: var(--black-trans-10)
+}
+
+[class*=overlay--] {
+    position: relative;
+    z-index: 0
+}
+
+[class*=overlay--]:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+.overlay--primary-trans-90::before {
+    background: var(--primary-trans-90)
+}
+
+.overlay--primary-trans-80::before {
+    background: var(--primary-trans-80)
+}
+
+.overlay--primary-trans-60::before {
+    background: var(--primary-trans-60)
+}
+
+.overlay--primary-trans-40::before {
+    background: var(--primary-trans-40)
+}
+
+.overlay--primary-trans-20::before {
+    background: var(--primary-trans-20)
+}
+
+.overlay--primary-trans-10::before {
+    background: var(--primary-trans-10)
+}
+
+.overlay--primary-ultra-dark-trans-90::before {
+    background: var(--primary-ultra-dark-trans-90)
+}
+
+.overlay--primary-ultra-dark-trans-80::before {
+    background: var(--primary-ultra-dark-trans-80)
+}
+
+.overlay--primary-ultra-dark-trans-60::before {
+    background: var(--primary-ultra-dark-trans-60)
+}
+
+.overlay--primary-ultra-dark-trans-40::before {
+    background: var(--primary-ultra-dark-trans-40)
+}
+
+.overlay--primary-ultra-dark-trans-20::before {
+    background: var(--primary-ultra-dark-trans-20)
+}
+
+.overlay--primary-ultra-dark-trans-10::before {
+    background: var(--primary-ultra-dark-trans-10)
+}
+
+.overlay--secondary-trans-90::before {
+    background: var(--secondary-trans-90)
+}
+
+.overlay--secondary-trans-80::before {
+    background: var(--secondary-trans-80)
+}
+
+.overlay--secondary-trans-60::before {
+    background: var(--secondary-trans-60)
+}
+
+.overlay--secondary-trans-40::before {
+    background: var(--secondary-trans-40)
+}
+
+.overlay--secondary-trans-20::before {
+    background: var(--secondary-trans-20)
+}
+
+.overlay--secondary-trans-10::before {
+    background: var(--secondary-trans-10)
+}
+
+.overlay--secondary-ultra-dark-trans-90::before {
+    background: var(--secondary-ultra-dark-trans-90)
+}
+
+.overlay--secondary-ultra-dark-trans-80::before {
+    background: var(--secondary-ultra-dark-trans-80)
+}
+
+.overlay--secondary-ultra-dark-trans-60::before {
+    background: var(--secondary-ultra-dark-trans-60)
+}
+
+.overlay--secondary-ultra-dark-trans-40::before {
+    background: var(--secondary-ultra-dark-trans-40)
+}
+
+.overlay--secondary-ultra-dark-trans-20::before {
+    background: var(--secondary-ultra-dark-trans-20)
+}
+
+.overlay--secondary-ultra-dark-trans-10::before {
+    background: var(--secondary-ultra-dark-trans-10)
+}
+
+.overlay--accent-trans-90::before {
+    background: var(--accent-trans-90)
+}
+
+.overlay--accent-trans-80::before {
+    background: var(--accent-trans-80)
+}
+
+.overlay--accent-trans-60::before {
+    background: var(--accent-trans-60)
+}
+
+.overlay--accent-trans-40::before {
+    background: var(--accent-trans-40)
+}
+
+.overlay--accent-trans-20::before {
+    background: var(--accent-trans-20)
+}
+
+.overlay--accent-trans-10::before {
+    background: var(--accent-trans-10)
+}
+
+.overlay--accent-ultra-dark-trans-90::before {
+    background: var(--accent-ultra-dark-trans-90)
+}
+
+.overlay--accent-ultra-dark-trans-80::before {
+    background: var(--accent-ultra-dark-trans-80)
+}
+
+.overlay--accent-ultra-dark-trans-60::before {
+    background: var(--accent-ultra-dark-trans-60)
+}
+
+.overlay--accent-ultra-dark-trans-40::before {
+    background: var(--accent-ultra-dark-trans-40)
+}
+
+.overlay--accent-ultra-dark-trans-20::before {
+    background: var(--accent-ultra-dark-trans-20)
+}
+
+.overlay--accent-ultra-dark-trans-10::before {
+    background: var(--accent-ultra-dark-trans-10)
+}
+
+.overlay--base-trans-90::before {
+    background: var(--base-trans-90)
+}
+
+.overlay--base-trans-80::before {
+    background: var(--base-trans-80)
+}
+
+.overlay--base-trans-60::before {
+    background: var(--base-trans-60)
+}
+
+.overlay--base-trans-40::before {
+    background: var(--base-trans-40)
+}
+
+.overlay--base-trans-20::before {
+    background: var(--base-trans-20)
+}
+
+.overlay--base-trans-10::before {
+    background: var(--base-trans-10)
+}
+
+.overlay--base-ultra-dark-trans-90::before {
+    background: var(--base-ultra-dark-trans-90)
+}
+
+.overlay--base-ultra-dark-trans-80::before {
+    background: var(--base-ultra-dark-trans-80)
+}
+
+.overlay--base-ultra-dark-trans-60::before {
+    background: var(--base-ultra-dark-trans-60)
+}
+
+.overlay--base-ultra-dark-trans-40::before {
+    background: var(--base-ultra-dark-trans-40)
+}
+
+.overlay--base-ultra-dark-trans-20::before {
+    background: var(--base-ultra-dark-trans-20)
+}
+
+.overlay--base-ultra-dark-trans-10::before {
+    background: var(--base-ultra-dark-trans-10)
+}
+
+.overlay--shade-ultra-dark-trans-90::before {
+    background: var(--shade-ultra-dark-trans-90)
+}
+
+.overlay--shade-ultra-dark-trans-80::before {
+    background: var(--shade-ultra-dark-trans-80)
+}
+
+.overlay--shade-ultra-dark-trans-60::before {
+    background: var(--shade-ultra-dark-trans-60)
+}
+
+.overlay--shade-ultra-dark-trans-40::before {
+    background: var(--shade-ultra-dark-trans-40)
+}
+
+.overlay--shade-ultra-dark-trans-20::before {
+    background: var(--shade-ultra-dark-trans-20)
+}
+
+.overlay--shade-ultra-dark-trans-10::before {
+    background: var(--shade-ultra-dark-trans-10)
+}
+
+.overlay--black-trans-90::before {
+    background: var(--black-trans-90)
+}
+
+.overlay--black-trans-80::before {
+    background: var(--black-trans-80)
+}
+
+.overlay--black-trans-60::before {
+    background: var(--black-trans-60)
+}
+
+.overlay--black-trans-40::before {
+    background: var(--black-trans-40)
+}
+
+.overlay--black-trans-20::before {
+    background: var(--black-trans-20)
+}
+
+.overlay--black-trans-10::before {
+    background: var(--black-trans-10)
+}
+
+
+/* End BG Colors and overlay */
+
 /* general overrides */
 
 body {
