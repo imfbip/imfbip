@@ -1834,4 +1834,23 @@ color: var(--shade-black) !important;
     align-items: flex-start;
   }
 
+/* general overrides */
+
+body {
+    font-size: var(--text-m-calc);
+}
+
+.stretch {
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: stretch;
+    justify-items: stretch;
+}
+
+.text-block {
+    margin-top: var(--space-xl);
+  width: 100%;
+    color:var(--shade-white);
+  }
 
