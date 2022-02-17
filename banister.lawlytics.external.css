@@ -1807,20 +1807,27 @@ color: var(--shade-black) !important;
     }
   
   .ct-section {
-  width: 100%;
-background-size: cover;
-background-repeat: repeat;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
   }
   
   .ct-section-inner-wrap{
+    padding-top: 75px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+    padding-left: 20px;
     max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
   }
   
   .ct-div-block {
     display: flex;
-flex-wrap: nowrap;
-flex-direction: column;
-align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
     
