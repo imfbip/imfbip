@@ -1,4 +1,12 @@
 
+.what-we-do {
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+
+
 /*START what we do block*/
   .what-we-do-block {
       margin-top: var(--space-xl);
