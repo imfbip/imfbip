@@ -1,4 +1,5 @@
 body {
+    font-size: var(--text-m);
     font-size: var(--text-m-calc);
 }
 
@@ -82,3 +83,10 @@ body {
       margin-left: .75em;
       content: "";
   }
+
+.hero-overlay {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
