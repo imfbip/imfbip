@@ -1,0 +1,30 @@
+
+/* this css code is specific to the about page only */
+
+body[data-page-id="262496"] .primary {
+
+
+}
+
+
+body[data-page-id="262496"] .primary-wrap {
+display: block;
+}
+
+body[data-page-id="262496"] .contact {
+  width: 100%;
+  margin: unset;
+  flex-basis: unset;
+  max-width: unset;
+}
+
+body[data-page-id="262496"] .form-wrap {
+    padding-top: 75px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
