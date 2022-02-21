@@ -1201,28 +1201,360 @@ h6 {
 
 /* Text Color utility */
 
+.text--xs,
+h6 {
+    font-size: max(var(--text-xs-stop), var(--text-xs));
+    --text-size: var(--text-xs)
+}
+
+.text--s {
+    font-size: max(var(--text-s-stop), var(--text-s));
+    --text-size: var(--text-s)
+}
+
+.text--m {
+    font-size: var(--text-m);
+    --text-size: var(--text-m)
+}
+
+.text--l {
+    font-size: var(--text-l);
+    --text-size: var(--text-l)
+}
+
+.text--xl {
+    font-size: var(--text-xl);
+    --text-size: var(--text-xl)
+}
+
+.text--xxl {
+    font-size: var(--text-xxl);
+    --text-size: var(--text-xxl)
+}
+
 .text--primary {
-color: var(--primary) !important;
+    color: var(--primary)
+}
+
+.text--primary-ultra-light {
+    color: var(--primary-ultra-light)
+}
+
+.text--primary-light {
+    color: var(--primary-light)
+}
+
+.text--primary-medium {
+    color: var(--primary-medium)
+}
+
+.text--primary-dark {
+    color: var(--primary-dark)
+}
+
+.text--primary-ultra-dark {
+    color: var(--primary-ultra-dark)
+}
+
+.text--primary-comp {
+    color: var(--primary-comp)
 }
 
 .text--secondary {
-color: var(--secondary) !important;
+    color: var(--secondary)
+}
+
+.text--secondary-ultra-light {
+    color: var(--secondary-ultra-light)
+}
+
+.text--secondary-light {
+    color: var(--secondary-light)
+}
+
+.text--secondary-medium {
+    color: var(--secondary-medium)
+}
+
+.text--secondary-dark {
+    color: var(--secondary-dark)
+}
+
+.text--secondary-ultra-dark {
+    color: var(--secondary-ultra-dark)
+}
+
+.text--secondary-comp {
+    color: var(--secondary-comp)
 }
 
 .text--accent {
-color: var(--accent) !important;
+    color: var(--accent)
+}
+
+.text--accent-ultra-light {
+    color: var(--accent-ultra-light)
+}
+
+.text--accent-light {
+    color: var(--accent-light)
+}
+
+.text--accent-medium {
+    color: var(--accent-medium)
+}
+
+.text--accent-dark {
+    color: var(--accent-dark)
+}
+
+.text--accent-ultra-dark {
+    color: var(--accent-ultra-dark)
+}
+
+.text--accent-comp {
+    color: var(--accent-comp)
 }
 
 .text--base {
-color: var(--base) !important;
+    color: var(--base)
+}
+
+.text--base-ultra-light {
+    color: var(--base-ultra-light)
+}
+
+.text--base-light {
+    color: var(--base-light)
+}
+
+.text--base-medium {
+    color: var(--base-medium)
+}
+
+.text--base-dark {
+    color: var(--base-dark)
+}
+
+.text--base-ultra-dark {
+    color: var(--base-ultra-dark)
+}
+
+.text--base-comp {
+    color: var(--base-comp)
 }
 
 .text--white {
-color: var(--shade-white) !important;
+    color: var(--shade-white)
 }
 
 .text--black {
-color: var(--shade-black) !important;
+    color: var(--shade-black)
+}
+
+.text--shade-ultra-light {
+    color: var(--shade-ultra-light)
+}
+
+.text--shade-light {
+    color: var(--shade-light)
+}
+
+.text--shade-medium {
+    color: var(--shade-medium)
+}
+
+.text--shade-dark {
+    color: var(--shade-dark)
+}
+
+.text--shade-ultra-dark {
+    color: var(--shade-ultra-dark)
+}
+
+[class*=link--] a,
+a[class*=link--] {
+    color: var(--link-color)
+}
+
+[class*=link--] a:hover,
+a[class*=link--]:hover {
+    color: var(--link-hover-color)
+}
+
+.link--primary {
+    --link-color: var(--primary);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--primary-ultra-light {
+    --link-color: var(--primary-ultra-light);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--primary-light {
+    --link-color: var(--primary-light);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--primary-medium {
+    --link-color: var(--primary-medium);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--primary-dark {
+    --link-color: var(--primary-dark);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--primary-ultra-dark {
+    --link-color: var(--primary-ultra-dark);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--primary-comp {
+    --link-color: var(--primary-comp);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--secondary {
+    --link-color: var(--secondary);
+    --link-hover-color: var(--secondary-hover)
+}
+
+.link--secondary-ultra-light {
+    --link-color: var(--secondary-ultra-light);
+    --link-hover-color: var(--secondary-hover)
+}
+
+.link--secondary-light {
+    --link-color: var(--secondary-light);
+    --link-hover-color: var(--secondary-hover)
+}
+
+.link--secondary-medium {
+    --link-color: var(--secondary-medium);
+    --link-hover-color: var(--secondary-hover)
+}
+
+.link--secondary-dark {
+    --link-color: var(--secondary-dark);
+    --link-hover-color: var(--secondary-hover)
+}
+
+.link--secondary-ultra-dark {
+    --link-color: var(--secondary-ultra-dark);
+    --link-hover-color: var(--secondary-hover)
+}
+
+.link--secondary-comp {
+    --link-color: var(--secondary-comp);
+    --link-hover-color: var(--secondary-hover)
+}
+
+.link--accent {
+    --link-color: var(--accent);
+    --link-hover-color: var(--accent-hover)
+}
+
+.link--accent-ultra-light {
+    --link-color: var(--accent-ultra-light);
+    --link-hover-color: var(--accent-hover)
+}
+
+.link--accent-light {
+    --link-color: var(--accent-light);
+    --link-hover-color: var(--accent-hover)
+}
+
+.link--accent-medium {
+    --link-color: var(--accent-medium);
+    --link-hover-color: var(--accent-hover)
+}
+
+.link--accent-dark {
+    --link-color: var(--accent-dark);
+    --link-hover-color: var(--accent-hover)
+}
+
+.link--accent-ultra-dark {
+    --link-color: var(--accent-ultra-dark);
+    --link-hover-color: var(--accent-hover)
+}
+
+.link--accent-comp {
+    --link-color: var(--accent-comp);
+    --link-hover-color: var(--accent-hover)
+}
+
+.link--base {
+    --link-color: var(--base);
+    --link-hover-color: var(--base-hover)
+}
+
+.link--base-ultra-light {
+    --link-color: var(--base-ultra-light);
+    --link-hover-color: var(--base-hover)
+}
+
+.link--base-light {
+    --link-color: var(--base-light);
+    --link-hover-color: var(--base-hover)
+}
+
+.link--base-medium {
+    --link-color: var(--base-medium);
+    --link-hover-color: var(--base-hover)
+}
+
+.link--base-dark {
+    --link-color: var(--base-dark);
+    --link-hover-color: var(--base-hover)
+}
+
+.link--base-ultra-dark {
+    --link-color: var(--base-ultra-dark);
+    --link-hover-color: var(--base-hover)
+}
+
+.link--base-comp {
+    --link-color: var(--base-comp);
+    --link-hover-color: var(--base-hover)
+}
+
+.link--white {
+    --link-color: var(--shade-white);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--black {
+    --link-color: var(--shade-black);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--shade-ultra-light {
+    --link-color: var(--shade-ultra-light);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--shade-light {
+    --link-color: var(--shade-light);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--shade-medium {
+    --link-color: var(--shade-medium);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--shade-dark {
+    --link-color: var(--shade-dark);
+    --link-hover-color: var(--primary-hover)
+}
+
+.link--shade-ultra-dark {
+    --link-color: var(--shade-ultra-dark);
+    --link-hover-color: var(--primary-hover)
 }
 
 /* GRID */
