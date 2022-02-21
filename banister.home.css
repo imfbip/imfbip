@@ -27,6 +27,7 @@ body[data-page-id="262495"] .form label {
  START Home Hero Section settings
 ============== */
 
+
 .home-hero {
     background-color: var(--base);
     text-align: center;
@@ -102,6 +103,10 @@ background-position: 100% 50%;
 
 
 /* START styles for home, hero dividers */
+
+#insertion_351670 {
+  position: static !important;
+}
 
 .home-hero__divider-1 .shape-divider__shape {
     color: var(--primary-trans-60);
