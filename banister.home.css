@@ -2,10 +2,10 @@
 
 
 body[data-page-id="262495"] .contact {
-  width: 100%;
-  margin: unset;
-  flex-basis: unset;
-  max-width: unset;
+    width: 100%;
+    margin: unset;
+    flex-basis: unset;
+    max-width: unset;
 }
 
 body[data-page-id="262495"] .contact-wrap {
@@ -20,8 +20,79 @@ body[data-page-id="262495"] .contact-wrap {
 }
 
 body[data-page-id="262495"] .form label {
-  color: var(--base-ultra-light) !important;
+    color: var(--base-ultra-light) !important;
 }
+
+/* ==============
+ START Home Hero Section settings
+============== */
+
+.home-hero {
+    background-color: var(--base);
+    text-align: center;
+
+}
+
+.home-hero__content-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+
+
+.home-hero__content-heading {
+    font-size: var(--text-xxl-calc);
+    color: var(--base-ultra-light);
+    font-weight: 700;
+    text-transform: capitalize;
+    max-width: 900px;
+    margin-top: 15px;
+    z-index: 10;
+}
+
+.home-hero__content-text {
+    color: var(--base-ultra-light);
+    width: var(--width-m);
+    position: relative;
+    z-index: 10;
+}
+
+.home-hero__content-subheading {
+    color: var(--base-ultra-light);
+    font-size: var(--text-m);
+    font-weight: 500;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+.home-hero__btn {
+    background-image: linear-gradient(90deg, #33c8c1, #119bd2 50%, #33c8c1 100%);
+    background-size: auto, auto;
+    font-weight: 600;
+    color: var(--base-ultra-light);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    margin-top: 30px;
+    background-position: 0% 0%;
+    background-size: 200%;
+    z-index: 10;
+}
+
+.home-hero__btn:hover {
+background-position: 100% 50%;
+}
+
+/* ==============
+ END Home Hero Section settings
+============== */
 
 
 /* ==============
@@ -32,20 +103,66 @@ body[data-page-id="262495"] .form label {
 
 /* START styles for home, hero dividers */
 
-.home-hero__divider-1{
-
+.home-hero__divider-1 .shape-divider__shape {
+    color: var(--primary-trans-60);
+    z-index: 1;
 }
 
-.home-hero__divider-2{
-
+.home-hero__divider-2 .shape-divider__shape {
+    color: var(--primary-trans-60);
+    z-index: 2;
 }
-.home-hero__divider-3{
 
+.home-hero__divider-3 .shape-divider__shape {
+    color: var(--primary-trans-60);
+    z-index: 3;
 }
-.home-hero__divider-4{
 
+.home-hero__divider-4 .shape-divider__shape {
+    color: var(--primary-trans-60);
+    z-index: 4;
 }
+
+
+.shape-divider__shape>svg {
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    transform-origin: bottom center;
+}
+
+.home-hero__divider-1 .shape-divider__shape svg {
+    height: 500px;
+    width: 300%;
+}
+
+.home-hero__divider-2 .shape-divider__shape svg {
+    height: 350px;
+    width: 210%;
+}
+
+.home-hero__divider-3 .shape-divider__shape svg {
+    height: 200px;
+    width: 200%;
+}
+
+.home-hero__divider-4 .shape-divider__shape svg {
+    height: 100px;
+    width: 180%;
+}
+
 /* END styles for home, hero dividers */
+
+.shape-divider__shape {
+    /*general settings */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    pointer-events: none;
+}
 
 /* ==============
  END Shape divider
