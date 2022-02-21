@@ -85,7 +85,7 @@ body {
   }
 
 .hero-overlay {
-  max-width: 1280px;
+  width: clamp(32.000rem, calc(32.000rem + ((1vw - 0.320rem) * 100.000)), 128.000rem) !important;
   margin-left: auto;
   margin-right: auto;
 }
