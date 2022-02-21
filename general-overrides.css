@@ -91,4 +91,16 @@ body {
 }
 
 
+/* ==============
+ START Shape divider
+============== */
 
+.shape-divider { /*this class should be assigned to a div*/
+  width: 0px;
+  height: 0px;
+
+}
+
+/* ==============
+ END Shape divider
+============== */
