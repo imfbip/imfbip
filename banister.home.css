@@ -1,0 +1,56 @@
+/*Css specific for home page */
+
+
+body[data-page-id="262495"] .contact {
+  width: 100%;
+  margin: unset;
+  flex-basis: unset;
+  max-width: unset;
+}
+
+body[data-page-id="262495"] .contact-wrap {
+      padding-top: 75px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+body[data-page-id="262495"] .form label {
+  color: var(--base-ultra-light) !important;
+}
+
+
+/* ==============
+ START Shape divider
+============== */
+
+.shape-divider { /*this class should be assigned to a div*/
+  width: 0px;
+  height: 0px;
+
+}
+
+/* START styles for home, hero dividers */
+
+.home-hero__divider-1{
+
+}
+
+.home-hero__divider-2{
+
+}
+.home-hero__divider-3{
+
+}
+.home-hero__divider-4{
+
+}
+/* END styles for home, hero dividers */
+
+/* ==============
+ END Shape divider
+============== */
