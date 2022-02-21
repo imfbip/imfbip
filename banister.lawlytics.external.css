@@ -1954,6 +1954,7 @@ a[class*=link--]:hover {
         grid-column:span 6
     }
 }
+
 @media (max-width:767px){
     .grid--m-1{
         --grid-template-columns:1fr
@@ -2046,6 +2047,7 @@ a[class*=link--]:hover {
         grid-column:span 6
     }
 }
+
 @media (max-width:479px){
     .grid--s-1{
         --grid-template-columns:1fr
