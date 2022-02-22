@@ -20,7 +20,7 @@ h6 a {
 } 
 
 header .mainNav a {
-    color: var(--base);
+    color: var(--base-ultra-light);
     text-transform: uppercase;
     font-size: var(--text-m);
     font-size: var(--text-m-calc);
@@ -162,7 +162,7 @@ a,
 .mainNav .parent a svg,
 label .required,
 .social a {
-    color: var(--primary);
+    color: var(--base-light);
 }
 
 .phone,
@@ -242,7 +242,7 @@ Background Images
   background: linear-gradient(180deg, rgba(242,234,224,0.4) 0%, rgba(24,23,28,0.4)) 100%, url(https://s3.amazonaws.com/law-media/uploads/2850/172543/original/Stopcounterfeiting-happy-business.svg);
   background-size: cover;
   min-height: 100vh;
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
 }
