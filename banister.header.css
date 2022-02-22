@@ -1,0 +1,24 @@
+header .mainNav a {
+    color: var(--base);
+    text-transform: uppercase;
+    font-size: var(--text-m);
+    font-size: var(--text-m-calc);
+    font-size: var(--text-m-clamp);
+}
+
+
+.mainNav li:hover>a,
+.mainNav>ul>li.active>a,
+.mainNav .parent a svg{
+    color: var(--primary);
+}
+
+/* Header settings for Home */
+
+body[data-page-id="262495"] header .mainNav a {
+    color: var(--base-ultra-light);
+    text-transform: uppercase;
+    font-size: var(--text-m);
+    font-size: var(--text-m-calc);
+    font-size: var(--text-m-clamp);
+}
