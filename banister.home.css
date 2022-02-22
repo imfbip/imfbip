@@ -8,6 +8,10 @@ body[data-page-id="262495"] .contact {
     max-width: unset;
 }
 
+body[data-page-id="262495"] .hero {
+  display: none;
+}
+
 body[data-page-id="262495"] .contact-wrap {
     padding-top: 75px;
     padding-right: 20px;
