@@ -8,10 +8,6 @@ body[data-page-id="262495"] .contact {
     max-width: unset;
 }
 
-body[data-page-id="262495"] .hero {
-  display: none;
-}
-
 body[data-page-id="262495"] .contact-wrap {
     padding-top: 75px;
     padding-right: 20px;
@@ -77,7 +73,7 @@ body[data-page-id="262495"] .form label {
 }
 
 .home-hero__btn {
-    background-image: linear-gradient(90deg, var(--base-medium), var(--base-dark) 50%, var(--base-medium) 100%);
+    background-image: linear-gradient(90deg, var(--primary), var(--primary-dark) 50%, var(--primary) 100%);
     background-size: auto, auto;
     font-weight: 600;
     color: var(--base-light);
@@ -119,12 +115,12 @@ body[data-page-id="262495"] .form label {
 }
 
 .home-hero__divider-1 .shape-divider__shape {
-    color: var(--primary-trans-60);
+    color: var(--base-medium-trans-20);
     z-index: 1;
 }
 
 .home-hero__divider-2 .shape-divider__shape {
-    color: var(--primary-trans-60);
+    color: var(--primary-trans-40);
     z-index: 2;
 }
 
