@@ -34,5 +34,9 @@ body[data-page-id="262503"] .contact-us__form-wrapper  #form_3605 {
     width: 100%;
 }
 
+body[data-page-id="262503"] form ul.bullets {
+  list-style:  none;
+}
+
 
 /* END contact us page specific css */
