@@ -76,8 +76,14 @@ body[data-page-id="262495"] .form label {
     z-index: 10;
 }
 
+.home-hero__btn:hover {
+    color: var(--secondary-ultra-light);
+    background-position: -30rem;
+
+}
+
 .home-hero__btn {
-    background-image: linear-gradient(90deg, var(--primary), var(--primary-dark) 50%, var(--primary) 100%);
+    background-image: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 50%, var(--primary) 100%);
     background-size: auto, auto;
     font-weight: 600;
     color: var(--base-light);
@@ -86,19 +92,12 @@ body[data-page-id="262495"] .form label {
     padding-left: 28px;
     padding-right: 28px;
     border-radius: var(--radius-s);
-    transition-duration: .3s;
-    transition-timing-function: ease-out;
+    transition: background 300ms ease-in-out;
     margin-top: 30px;
-    background-position: 0% 0%;
+    background-position: 0% 50%;
     background-size: 200%;
     z-index: 10;
-}
 
-.home-hero__btn:hover {
-    transition-duration: .3s;
-    transition-timing-function: ease-in;
-    background-position: 100% 50%;
-    color: var(--secondary-ultra-light);
 }
 
 /* ==============
