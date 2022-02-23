@@ -62,10 +62,10 @@ body[data-page-id="262495"] .form label {
 }
 
 .home-hero__content-text {
-    color: var(--base-ultra-light);
-    width: var(--width-m);
-    position: relative;
-    z-index: 10;
+      color: var(--base-ultra-light);
+      max-width: var(--width-m);
+      position: relative;
+      z-index: 10;
 }
 
 .home-hero__content-subheading {
