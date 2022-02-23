@@ -3,3 +3,36 @@
 body[data-page-id="262503"] .contact-us {
   color: var(--shade-white);
 }
+
+body[data-page-id="262503"] main > form {
+    display:none;
+}
+
+body[data-page-id="262503"] .ct-section-inner-wrap {
+    display: block;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+
+body[data-page-id="262503"] #form-wrap {
+    display:grid!important;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    grid-gap: var(--space-l);
+
+}
+
+@media (max-width:991px){
+    body[data-page-id="262503"] #form-wrap {
+        grid-template-columns: 1fr;
+    }
+}
+
+body[data-page-id="262503"] .contact-us__form-wrapper  #form_3605 {
+    float: unset !important;
+    margin-top: auto !important;
+    width: 100%;
+}
+
+
+/* END contact us page specific css */
