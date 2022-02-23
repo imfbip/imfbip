@@ -1,0 +1,5 @@
+/* contact us page specific css */
+
+body[data-page-id="262503"] .contact-us {
+  color: var(-shade-white);
+}
