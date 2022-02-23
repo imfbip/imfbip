@@ -1,3 +1,5 @@
+/* Default header settings */
+
 header .mainNav a {
     color: var(--base);
     text-transform: uppercase;
@@ -10,7 +12,7 @@ header .mainNav a {
 .mainNav li:hover>a,
 .mainNav>ul>li.active>a,
 .mainNav .parent a svg{
-    color: var(--primary);
+    color: var(--primary) !important;
 }
 
 /* Header settings for Home */
