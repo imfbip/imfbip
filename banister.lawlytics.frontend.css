@@ -54,7 +54,32 @@ HEADER overrides
     min-width: 18rem;
 }
 
+header { /* unset site default values */
+
+align-items: unset;
+display: unset;
+justify-content: unset;
+position: unset;
+width: 100%;
+z-index: unset;
+}
+
 header {
+
+background: var(--base);
+display: flex !important;
+align-items: center;
+justify-content: space-between;
+padding-left: var(--space-xs);
+padding-right: var(--space-xs);
+padding-top: 1rem;
+padding-bottom: 1rem;
+max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -82.5px;
+z-index: 10000;
+position: relative;
     
 }
 
@@ -120,15 +145,6 @@ header {
     }
 }
 
-header {
-    /*! background: var(--base); */
-    display:  flex !important;
-    align-content: center;
-    padding-left: var(--space-xs);
-    padding-right: var(--space-xs);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
 
 .nav-toggle {
     right: var(--space-xs) !important;
