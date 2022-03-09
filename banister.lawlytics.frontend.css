@@ -65,8 +65,6 @@ z-index: unset;
 }
 
 header {
-
-background: var(--base);
 display: flex !important;
 align-items: center;
 justify-content: space-between;
@@ -80,8 +78,14 @@ margin-right: auto;
 margin-bottom: -82.5px;
 z-index: 10000;
 position: relative;
-    
+
 }
+
+body[data-root-id="262495"] header {
+background: var(--base);
+}
+
+
 
 .fa-2x {
     font-size: var(--text-xl-calc) !important;
