@@ -115,7 +115,7 @@ position: relative;
 }
 
 #siteCanvas .fa-bars {
-    color: var(--base);
+    color: var(--shade-white);
 }
 
 #siteCanvas .fa-bars:hover  {
