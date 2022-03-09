@@ -190,8 +190,14 @@ footer {
 }
 
 .footer-wrap {
-  margin: 0;
-  max-width: unset !important;
+    padding-top: 75px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
 }
 
 /* Overlays */
