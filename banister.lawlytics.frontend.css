@@ -119,8 +119,14 @@ background: var(--base);
 }
 
 #siteCanvas .fa-bars {
+    color: var(--base);
+}
+
+#siteCanvas body[data-page-id="262495"]  .fa-bars {
     color: var(--shade-white);
 }
+
+
 
 #siteCanvas .fa-bars:hover  {
     color: var(--primary-hover);
