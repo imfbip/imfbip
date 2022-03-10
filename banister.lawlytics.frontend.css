@@ -1088,8 +1088,15 @@ START subpages overrides
 body[data-page-id="262497"] .primary-wrap {
   display: grid; 
   grid-template-columns: 2.5fr 1fr; 
-  gap: 0px var(--space-m-calc);
-    padding: var(--space-m-calc);
+  gap: 0px var(--space-l);
+  padding-top: 75px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+  padding-left: 20px;
+  max-width: 1280px !important;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }
 
 @media (max-width:992px) {
