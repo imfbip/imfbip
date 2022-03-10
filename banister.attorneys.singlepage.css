@@ -1,6 +1,6 @@
 
 
-body[data-page-id="288808"] .primary-wrap {
+body[data-parent-id="262500"] .primary-wrap {
   padding-top: 75px;
   padding-right: 20px;
   padding-bottom: 75px;
@@ -13,28 +13,28 @@ body[data-page-id="288808"] .primary-wrap {
 
 /*content wrapper*/
 
-body[data-page-id="288808"] div[itemprop="employee"] {
+body[data-parent-id="262500"] div[itemprop="employee"] {
 
 }
 
 
 /*headshot of atty*/
-body[data-page-id="288808"] div[itemprop="photo"] {
+body[data-parent-id="262500"] div[itemprop="photo"] {
 
 }
 
 /*attornye bio wrapper*/
-body[data-page-id="288808"] div[itemprop="description"] {
+body[data-parent-id="262500"] div[itemprop="description"] {
   background-color: var(--shade-white);
   padding: var(--space-l);
 }
 
 /* recent posts wrapper */
-body[data-page-id="288808"] div.recent-posts {
+body[data-parent-id="262500"] div.recent-posts {
 color: var(--base);
 }
 
-body[data-page-id="288808"] div.recent-posts h1 {
+body[data-parent-id="262500"] div.recent-posts h1 {
 background: var(--base-medium) !important;
 color: var(--shade-white) !important;
 font-size: var(--text-l) !important;
