@@ -1,0 +1,43 @@
+
+
+body[data-page-id="288808"] .primary-wrap {
+  padding-top: 75px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+  padding-left: 20px;
+  max-width: 1280px !important;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+/*content wrapper*/
+
+body[data-page-id="288808"] div[itemprop="employee"] {
+
+}
+
+
+/*headshot of atty*/
+body[data-page-id="288808"] div[itemprop="photo"] {
+
+}
+
+/*attornye bio wrapper*/
+body[data-page-id="288808"] div[itemprop="description"] {
+  background-color: var(--shade-white);
+  padding: var(--space-l);
+}
+
+/* recent posts wrapper */
+body[data-page-id="288808"] div.recent-posts {
+color: var(--base);
+}
+
+body[data-page-id="288808"] div.recent-posts h1 {
+background: var(--base-medium) !important;
+color: var(--shade-white) !important;
+font-size: var(--text-l) !important;
+margin: 0 !important;
+padding: var(--space-m) !important;
+}
