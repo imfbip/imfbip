@@ -1,0 +1,86 @@
+/* Content structure
+
+body[data-page-id="262500"]
+
+section.primary
+  div.primary-wrap
+    main.content
+      div.attorneys_index
+        ul.attorneys.grid
+          li
+            div itemscope="itemscope" itemtyp="http://schema.org/Person" itemprop="employee"  ---this is the attorney card wrapper
+
+              div.thumb itemprop="photo"
+                a.small
+                  img ---This is attorney's photo
+              h2
+                a ---This is attorney's name
+              p.bio_summary itemprop="description" --- attorney  bio
+                a itemprop="url" --- link to the attorney's page
+*/
+
+
+body[data-page-id="262500"] .primary-wrap {
+  padding-top: 75px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+  padding-left: 20px;
+  max-width: 1280px !important;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.attorneys_index li {
+  background-color: var(--base-ultra-light);
+  border-radius: var(--radius-m);
+  overflow: unset !important;
+  height: 100% !important;
+}
+
+div[itemprop="employee"] {
+ padding: var(--space-l);
+}
+
+div[itemprop="photo"] {
+  float: unset !important;
+}
+
+
+.attorneys_index .attorneys.grid li {
+  height: auto !important;
+  margin-bottom: 1.5em;
+}
+
+p a[itemprop="url"] {
+      background: var(--btn-bg, var(--btn-primary-bg));
+    border-width: var(--btn-border-size);
+    border-color: var(--btn-border-color, var(--btn-primary-border-color));
+    border-radius: var(--btn-radius);
+    line-height: 1.2;
+    padding: var(--btn-pad-y) var(--btn-pad-x);
+    font-size: var(--btn-text-size, var(--text-m));
+    color: var(--btn-text-color, var(--btn-primary-text));
+    --btn-bg: var(--btn-primary-bg);
+    --btn-text-color: var(--btn-primary-text);
+    --btn-hover: var(--btn-primary-hover);
+    --btn-hover-text: var(--btn-primary-hover-text);
+    --btn-border-color: var(--btn-primary-border-color);
+    --btn-outline-text: var(--primary-outline-btn-text);
+    --btn-outline-hover-text: var(--primary-outline-hover-text);
+}
+
+p a[itemprop="url"]:hover {
+    background: var(--btn-hover, var(--btn-primary-hover));
+    border-color: var(--btn-hover, var(--btn-primary-hover-border-color));
+    color: var(--btn-hover-text, var(--btn-primary-hover-text));
+    text-decoration:none;
+}
+
+div[itemprop="employee"] h2 {
+  margin-top: var(--space-l) !important;
+
+}
+div[itemprop="employee"] a {
+  margin-top: var(--space-m) !important;
+}
