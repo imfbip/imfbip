@@ -181,3 +181,18 @@ body[data-page-id="262495"] .form label {
 /* ==============
  END Shape divider
 ============== */
+
+/* ========
+Attorney card
+======== */
+
+.atty-card {
+        flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.atty-btn {
+    margin-top: auto;
+}
